@@ -1,0 +1,595 @@
+"state","puma12","puma2k","stab","PUMAname","PUMA2kName","hus10","afact","AFACT2"
+"FIPS state","puma12","puma2k","State Postal Code","PUMA12 Name","PUMA 2K Name","Total HUs, 2010 census","puma12 to puma2k alloc factor","puma2k to puma12 alloc factor"
+"06","00101","02401","CA","Alameda County (North)--Berkeley & Albany Cities","0602401",57343,1,1 
+"06","00102","02402","CA","Alameda County (Northwest)--Oakland (Northwest) & Emeryville Cities","0602402",78316,1,1 
+"06","00103","02403","CA","Alameda County (Northeast)--Oakland (East) & Piedmont Cities","0602403",58222,1,1 
+"06","00103","02406","CA","Alameda County (Northeast)--Oakland (East) & Piedmont Cities","0602406",4,0,0 
+"06","00104","02404","CA","Alameda County (North Central)--Oakland City (South Central)","0602404",42658,1,1 
+"06","00104","02405","CA","Alameda County (North Central)--Oakland City (South Central)","0602405",12,0,0 
+"06","00105","02404","CA","Alameda County (West)--San Leandro, Alameda & Oakland (Southwest) Cities","0602404",1,0,0 
+"06","00105","02405","CA","Alameda County (West)--San Leandro, Alameda & Oakland (Southwest) Cities","0602405",66306,1,1 
+"06","00106","02406","CA","Alameda County (North Central)--Castro Valley, San Lorenzo & Ashland","0602406",49314,1,1 
+"06","00107","02407","CA","Alameda County (Central)--Hayward City","0602407",48013,1,1 
+"06","00108","02408","CA","Alameda County (Southwest)--Union City, Newark & Fremont (West) Cities","0602408",42335,1,1 
+"06","00109","02409","CA","Alameda County (South Central)--Fremont City (East)","0602409",65977,1,1 
+"06","00110","02410","CA","Alameda County (East)--Livermore, Pleasanton & Dublin Cities","0602410",74048,1,1 
+"06","00300","01700","CA","Alpine, Amador, Calaveras, Inyo, Mariposa, Mono & Tuolumne Counties","0601700",2,0,0 
+"06","00300","01800","CA","Alpine, Amador, Calaveras, Inyo, Mariposa, Mono & Tuolumne Counties","0601800",112537,1,1 
+"06","00701","00600","CA","Butte County (Northwest)--Chico City","0600600",47948,1,0.5 
+"06","00702","00600","CA","Butte County (Southeast)--Oroville City & Paradise Town","0600600",47887,1,0.5 
+"06","01100","00500","CA","Colusa, Glenn, Tehama & Trinity Counties","0600500",54329,1,1 
+"06","01301","02101","CA","Contra Costa County (Far Southwest)--Richmond (Southwest) & San Pablo Cities","0602101",41591,1,0.868 
+"06","01301","02102","CA","Contra Costa County (Far Southwest)--Richmond (Southwest) & San Pablo Cities","0602102",4,0,0 
+"06","01302","02101","CA","Contra Costa County (Far Northwest)--Richmond (North), Hercules & El Cerrito Cites","0602101",6314,0.135,0.132 
+"06","01302","02102","CA","Contra Costa County (Far Northwest)--Richmond (North), Hercules & El Cerrito Cites","0602102",40535,0.865,0.852 
+"06","01303","02102","CA","Contra Costa County (Northwest)--Concord (West), Martinez & Pleasant Hill Cities","0602102",7014,0.134,0.147 
+"06","01303","02103","CA","Contra Costa County (Northwest)--Concord (West), Martinez & Pleasant Hill Cities","0602103",37234,0.711,0.836 
+"06","01303","02106","CA","Contra Costa County (Northwest)--Concord (West), Martinez & Pleasant Hill Cities","0602106",8085,0.154,0.165 
+"06","01304","02103","CA","Contra Costa County--Walnut Creek (West), Lafayette, Orinda Cities & Moraga Town","0602103",56,0.001,0.001 
+"06","01304","02104","CA","Contra Costa County--Walnut Creek (West), Lafayette, Orinda Cities & Moraga Town","0602104",45235,0.872,0.682 
+"06","01304","02105","CA","Contra Costa County--Walnut Creek (West), Lafayette, Orinda Cities & Moraga Town","0602105",6582,0.127,0.126 
+"06","01305","02105","CA","Contra Costa County (South)--San Ramon City & Danville Town","0602105",45690,1,0.874 
+"06","01306","02103","CA","Contra Costa County (Central)--Concord (South), Walnut Creek (East) & Clayton Cities","0602103",6032,0.128,0.136 
+"06","01306","02104","CA","Contra Costa County (Central)--Concord (South), Walnut Creek (East) & Clayton Cities","0602104",21054,0.447,0.318 
+"06","01306","02106","CA","Contra Costa County (Central)--Concord (South), Walnut Creek (East) & Clayton Cities","0602106",20000,0.425,0.408 
+"06","01307","02103","CA","Contra Costa County (North Central)--Pittsburg & Concord (North & East) Cities","0602103",1194,0.029,0.027 
+"06","01307","02106","CA","Contra Costa County (North Central)--Pittsburg & Concord (North & East) Cities","0602106",15506,0.372,0.316 
+"06","01307","02107","CA","Contra Costa County (North Central)--Pittsburg & Concord (North & East) Cities","0602107",25030,0.6,0.664 
+"06","01308","02106","CA","Contra Costa County (Northeast)--Antioch City","0602106",5427,0.149,0.111 
+"06","01308","02107","CA","Contra Costa County (Northeast)--Antioch City","0602107",12653,0.347,0.336 
+"06","01308","02108","CA","Contra Costa County (Northeast)--Antioch City","0602108",18342,0.504,0.333 
+"06","01309","02108","CA","Contra Costa County (East)--Brentwood & Oakley Cities","0602108",36685,1,0.667 
+"06","01500","00100","CA","Del Norte, Lassen, Modoc, Plumas & Siskiyou Counties","0600100",52998,0.773,1 
+"06","01500","00700","CA","Del Norte, Lassen, Modoc, Plumas & Siskiyou Counties","0600700",15566,0.227,0.221 
+"06","01700","01700","CA","El Dorado County--El Dorado Hills","0601700",88159,1,0.996 
+"06","01901","03301","CA","Fresno County (West)--Selma, Kerman & Coalinga Cities","0603301",13,0,0 
+"06","01901","03401","CA","Fresno County (West)--Selma, Kerman & Coalinga Cities","0603401",40624,1,0.874 
+"06","01902","03302","CA","Fresno County (North Central)--Fresno City (North)","0603302",60452,0.87,1 
+"06","01902","03401","CA","Fresno County (North Central)--Fresno City (North)","0603401",807,0.012,0.017 
+"06","01902","03402","CA","Fresno County (North Central)--Fresno City (North)","0603402",8201,0.118,0.079 
+"06","01903","03301","CA","Fresno County (Central)--Fresno City (East Central)","0603301",28516,0.834,0.271 
+"06","01903","03402","CA","Fresno County (Central)--Fresno City (East Central)","0603402",5686,0.166,0.055 
+"06","01904","03301","CA","Fresno County (Central)--Fresno City (Southwest)","0603301",49991,0.874,0.475 
+"06","01904","03401","CA","Fresno County (Central)--Fresno City (Southwest)","0603401",4914,0.086,0.106 
+"06","01904","03402","CA","Fresno County (Central)--Fresno City (Southwest)","0603402",2297,0.04,0.022 
+"06","01905","03301","CA","Fresno County (Central)--Fresno City (Southeast)","0603301",26458,0.843,0.251 
+"06","01905","03402","CA","Fresno County (Central)--Fresno City (Southeast)","0603402",4942,0.157,0.048 
+"06","01906","03301","CA","Fresno County (Central)--Clovis City","0603301",344,0.009,0.003 
+"06","01906","03402","CA","Fresno County (Central)--Clovis City","0603402",37492,0.991,0.363 
+"06","01907","03402","CA","Fresno County (East)--Sanger, Reedley & Parlier Cities","0603402",44794,1,0.433 
+"06","02300","00200","CA","Humboldt County","0600200",61559,1,1 
+"06","02500","08200","CA","Imperial County--El Centro City","0608200",56067,1,1 
+"06","02901","03800","CA","Kern County (West)--Delano, Wasco & Shafter Cities","0603800",3344,0.064,0.029 
+"06","02901","03901","CA","Kern County (West)--Delano, Wasco & Shafter Cities","0603901",39527,0.762,1 
+"06","02901","03903","CA","Kern County (West)--Delano, Wasco & Shafter Cities","0603903",9023,0.174,0.148 
+"06","02902","03800","CA","Kern County (Central)--Bakersfield City (West)","0603800",62392,0.872,0.54 
+"06","02902","03903","CA","Kern County (Central)--Bakersfield City (West)","0603903",9126,0.128,0.149 
+"06","02903","03800","CA","Kern County (Central)--Bakersfield City (Northeast)","0603800",32805,0.621,0.284 
+"06","02903","03903","CA","Kern County (Central)--Bakersfield City (Northeast)","0603903",20051,0.379,0.328 
+"06","02904","03800","CA","Kern County (Central)--Bakersfield City (Southeast)","0603800",16881,0.544,0.146 
+"06","02904","03902","CA","Kern County (Central)--Bakersfield City (Southeast)","0603902",5180,0.167,0.076 
+"06","02904","03903","CA","Kern County (Central)--Bakersfield City (Southeast)","0603903",8942,0.288,0.146 
+"06","02905","03800","CA","Kern County (East)--Ridgecrest, Arvin, Tehachapi & California City Cities","0603800",84,0.001,0.001 
+"06","02905","03902","CA","Kern County (East)--Ridgecrest, Arvin, Tehachapi & California City Cities","0603902",62991,0.817,0.924 
+"06","02905","03903","CA","Kern County (East)--Ridgecrest, Arvin, Tehachapi & California City Cities","0603903",14011,0.182,0.229 
+"06","02905","06101","CA","Kern County (East)--Ridgecrest, Arvin, Tehachapi & California City Cities","0606101",10,0,0 
+"06","03100","03600","CA","Kings County--Hanford City","0603600",43867,1,1 
+"06","03300","00400","CA","Lake & Mendocino Counties","0600400",75815,1,1 
+"06","03701","04406","CA","Los Angeles County (North/Unincorporated)--Castaic","0604406",1,0,0 
+"06","03701","04500","CA","Los Angeles County (North/Unincorporated)--Castaic","0604500",1020,0.023,0.02 
+"06","03701","04600","CA","Los Angeles County (North/Unincorporated)--Castaic","0604600",744,0.017,0.016 
+"06","03701","04700","CA","Los Angeles County (North/Unincorporated)--Castaic","0604700",4091,0.091,0.071 
+"06","03701","06101","CA","Los Angeles County (North/Unincorporated)--Castaic","0606101",38977,0.869,0.633 
+"06","03702","04700","CA","Los Angeles County (Northwest)--Santa Clarita City","0604700",53766,0.811,0.929 
+"06","03702","06101","CA","Los Angeles County (Northwest)--Santa Clarita City","0606101",12564,0.189,0.204 
+"06","03703","04500","CA","Los Angeles County (North Central)--Lancaster City","0604500",50342,0.908,0.97 
+"06","03703","06101","CA","Los Angeles County (North Central)--Lancaster City","0606101",5077,0.092,0.082 
+"06","03704","04500","CA","Los Angeles County (North Central)--Palmdale City","0604500",512,0.01,0.01 
+"06","03704","04600","CA","Los Angeles County (North Central)--Palmdale City","0604600",45528,0.902,0.984 
+"06","03704","06101","CA","Los Angeles County (North Central)--Palmdale City","0606101",4455,0.088,0.072 
+"06","03705","05401","CA","Los Angeles County (North)--LA City (Northwest/Chatsworth & Porter Ranch)","0605401",58745,0.979,0.939 
+"06","03705","05402","CA","Los Angeles County (North)--LA City (Northwest/Chatsworth & Porter Ranch)","0605402",478,0.008,0.011 
+"06","03705","06126","CA","Los Angeles County (North)--LA City (Northwest/Chatsworth & Porter Ranch)","0606126",764,0.013,0.018 
+"06","03706","05401","CA","Los Angeles County (North)--LA City (North Central/Granada Hills & Sylmar)","0605401",24,0.001,0 
+"06","03706","05402","CA","Los Angeles County (North)--LA City (North Central/Granada Hills & Sylmar)","0605402",41519,0.991,0.971 
+"06","03706","05405","CA","Los Angeles County (North)--LA City (North Central/Granada Hills & Sylmar)","0605405",360,0.009,0.01 
+"06","03707","05403","CA","Los Angeles County--LA (North Central/Arleta & Pacoima) & San Fernando Cities","0605403",29072,0.805,0.976 
+"06","03707","05404","CA","Los Angeles County--LA (North Central/Arleta & Pacoima) & San Fernando Cities","0605404",7,0,0 
+"06","03707","05405","CA","Los Angeles County--LA (North Central/Arleta & Pacoima) & San Fernando Cities","0605405",286,0.008,0.008 
+"06","03707","06101","CA","Los Angeles County--LA (North Central/Arleta & Pacoima) & San Fernando Cities","0606101",457,0.013,0.007 
+"06","03707","06126","CA","Los Angeles County--LA (North Central/Arleta & Pacoima) & San Fernando Cities","0606126",6291,0.174,0.15 
+"06","03708","05403","CA","Los Angeles County (North)--LA City (Northeast/Sunland, Sun Valley & Tujunga)","0605403",104,0.002,0.003 
+"06","03708","05404","CA","Los Angeles County (North)--LA City (Northeast/Sunland, Sun Valley & Tujunga)","0605404",42494,0.998,1 
+"06","03708","06101","CA","Los Angeles County (North)--LA City (Northeast/Sunland, Sun Valley & Tujunga)","0606101",1,0,0 
+"06","03709","04900","CA","Los Angeles County (Central)--San Gabriel Valley Region (North)","0604900",312,0.007,0.004 
+"06","03709","05000","CA","Los Angeles County (Central)--San Gabriel Valley Region (North)","0605000",1850,0.044,0.031 
+"06","03709","06101","CA","Los Angeles County (Central)--San Gabriel Valley Region (North)","0606101",2,0,0 
+"06","03709","06102","CA","Los Angeles County (Central)--San Gabriel Valley Region (North)","0606102",39990,0.949,0.738 
+"06","03710","06102","CA","Los Angeles County--Baldwin Park, Azusa, Duarte & Irwindale Cities","0606102",7394,0.154,0.136 
+"06","03710","06105","CA","Los Angeles County--Baldwin Park, Azusa, Duarte & Irwindale Cities","0606105",40503,0.846,0.941 
+"06","03711","05200","CA","Los Angeles County (East Central)--Glendora, Claremont, San Dimas & La Verne Cities","0605200",655,0.011,0.016 
+"06","03711","06101","CA","Los Angeles County (East Central)--Glendora, Claremont, San Dimas & La Verne Cities","0606101",3,0,0 
+"06","03711","06106","CA","Los Angeles County (East Central)--Glendora, Claremont, San Dimas & La Verne Cities","0606106",58415,0.989,0.999 
+"06","03711","06107","CA","Los Angeles County (East Central)--Glendora, Claremont, San Dimas & La Verne Cities","0606107",2,0,0 
+"06","03712","05200","CA","Los Angeles County (East Central)--Pomona City","0605200",39807,0.998,0.978 
+"06","03712","06106","CA","Los Angeles County (East Central)--Pomona City","0606106",67,0.002,0.001 
+"06","03713","05800","CA","Los Angeles County (East Central)--Covina & Walnut Cities","0605800",4538,0.131,0.139 
+"06","03713","06105","CA","Los Angeles County (East Central)--Covina & Walnut Cities","0606105",23,0.001,0.001 
+"06","03713","06107","CA","Los Angeles County (East Central)--Covina & Walnut Cities","0606107",29996,0.868,0.865 
+"06","03714","05200","CA","Los Angeles County--Diamond Bar, La Habra Heights (East) Cities & Rowland Heights","0605200",243,0.007,0.006 
+"06","03714","06108","CA","Los Angeles County--Diamond Bar, La Habra Heights (East) Cities & Rowland Heights","0606108",35001,0.993,0.999 
+"06","03715","05800","CA","Los Angeles County (East Central)--West Covina City","0605800",27229,0.797,0.832 
+"06","03715","06105","CA","Los Angeles County (East Central)--West Covina City","0606105",1324,0.039,0.031 
+"06","03715","06107","CA","Los Angeles County (East Central)--West Covina City","0606107",4675,0.137,0.135 
+"06","03715","06109","CA","Los Angeles County (East Central)--West Covina City","0606109",952,0.028,0.032 
+"06","03716","05800","CA","Los Angeles County (East Central)--La Puente & Industry Cities","0605800",973,0.037,0.03 
+"06","03716","06105","CA","Los Angeles County (East Central)--La Puente & Industry Cities","0606105",1208,0.046,0.028 
+"06","03716","06109","CA","Los Angeles County (East Central)--La Puente & Industry Cities","0606109",23972,0.917,0.815 
+"06","03717","05000","CA","Los Angeles County (East Central)--Arcadia, San Gabriel & Temple City Cities","0605000",10,0,0 
+"06","03717","05100","CA","Los Angeles County (East Central)--Arcadia, San Gabriel & Temple City Cities","0605100",566,0.008,0.019 
+"06","03717","06102","CA","Los Angeles County (East Central)--Arcadia, San Gabriel & Temple City Cities","0606102",6496,0.096,0.12 
+"06","03717","06104","CA","Los Angeles County (East Central)--Arcadia, San Gabriel & Temple City Cities","0606104",60345,0.895,0.963 
+"06","03718","05000","CA","Los Angeles County (Central)--Pasadena City","0605000",57727,0.978,0.969 
+"06","03718","05416","CA","Los Angeles County (Central)--Pasadena City","0605416",3,0,0 
+"06","03718","06102","CA","Los Angeles County (Central)--Pasadena City","0606102",319,0.005,0.006 
+"06","03718","06103","CA","Los Angeles County (Central)--Pasadena City","0606103",2,0,0 
+"06","03718","06104","CA","Los Angeles County (Central)--Pasadena City","0606104",961,0.016,0.015 
+"06","03719","04900","CA","Los Angeles County (Central)--Glendale City","0604900",75964,1,0.996 
+"06","03720","04800","CA","Los Angeles County (Central)--Burbank City","0604800",44303,0.861,1 
+"06","03720","04900","CA","Los Angeles County (Central)--Burbank City","0604900",6,0,0 
+"06","03720","05410","CA","Los Angeles County (Central)--Burbank City","0605410",255,0.005,0.003 
+"06","03720","05413","CA","Los Angeles County (Central)--Burbank City","0605413",2362,0.046,0.021 
+"06","03720","05416","CA","Los Angeles County (Central)--Burbank City","0605416",4517,0.088,0.061 
+"06","03721","05406","CA","Los Angeles County (North)--LA City (Northeast/North Hollywood & Valley Village)","0605406",54845,1,1 
+"06","03722","05407","CA","Los Angeles County (Northwest)--LA City (North Central/Van Nuys & North Sherman Oaks)","0605407",60430,0.998,0.989 
+"06","03722","05408","CA","Los Angeles County (Northwest)--LA City (North Central/Van Nuys & North Sherman Oaks)","0605408",97,0.002,0.002 
+"06","03723","05402","CA","Los Angeles County (North)--LA City (North Central/Mission Hills & Panorama City)","0605402",740,0.019,0.017 
+"06","03723","05403","CA","Los Angeles County (North)--LA City (North Central/Mission Hills & Panorama City)","0605403",611,0.016,0.021 
+"06","03723","05405","CA","Los Angeles County (North)--LA City (North Central/Mission Hills & Panorama City)","0605405",36628,0.934,0.983 
+"06","03723","05408","CA","Los Angeles County (North)--LA City (North Central/Mission Hills & Panorama City)","0605408",1239,0.032,0.019 
+"06","03724","05408","CA","Los Angeles County (Northwest)--LA City (Northwest/Encino & Tarzana)","0605408",62615,1,0.979 
+"06","03725","05401","CA","Los Angeles County--LA City (Northwest/Canoga Park, Winnetka & Woodland Hills)","0605401",3804,0.06,0.061 
+"06","03725","05408","CA","Los Angeles County--LA City (Northwest/Canoga Park, Winnetka & Woodland Hills)","0605408",10,0,0 
+"06","03725","05409","CA","Los Angeles County--LA City (Northwest/Canoga Park, Winnetka & Woodland Hills)","0605409",59501,0.935,0.985 
+"06","03725","06126","CA","Los Angeles County--LA City (Northwest/Canoga Park, Winnetka & Woodland Hills)","0606126",306,0.005,0.007 
+"06","03726","05401","CA","Los Angeles County--Calabasas, Agoura Hills, Malibu & Westlake Village Cities","0605401",2,0,0 
+"06","03726","05409","CA","Los Angeles County--Calabasas, Agoura Hills, Malibu & Westlake Village Cities","0605409",881,0.021,0.015 
+"06","03726","05410","CA","Los Angeles County--Calabasas, Agoura Hills, Malibu & Westlake Village Cities","0605410",5990,0.145,0.073 
+"06","03726","06126","CA","Los Angeles County--Calabasas, Agoura Hills, Malibu & Westlake Village Cities","0606126",34455,0.834,0.824 
+"06","03727","05407","CA","Los Angeles County (Central)--LA City (Central/Pacific Palisades)","0605407",678,0.009,0.011 
+"06","03727","05410","CA","Los Angeles County (Central)--LA City (Central/Pacific Palisades)","0605410",75651,0.991,0.921 
+"06","03727","06125","CA","Los Angeles County (Central)--LA City (Central/Pacific Palisades)","0606125",7,0,0 
+"06","03728","05411","CA","Los Angeles County (Southwest)--Santa Monica City","0605411",1710,0.029,0.018 
+"06","03728","05420","CA","Los Angeles County (Southwest)--Santa Monica City","0605420",5792,0.099,0.097 
+"06","03728","06125","CA","Los Angeles County (Southwest)--Santa Monica City","0606125",50912,0.872,0.411 
+"06","03729","05411","CA","Los Angeles County (West Central)--LA City (West Central/Westwood & West Los Angeles)","0605411",94315,1,0.981 
+"06","03729","05412","CA","Los Angeles County (West Central)--LA City (West Central/Westwood & West Los Angeles)","0605412",44,0,0.001 
+"06","03730","05411","CA","Los Angeles County (West Central)--LA City (Central/Hancock Park & Mid-Wilshire)","0605411",86,0.001,0.001 
+"06","03730","05412","CA","Los Angeles County (West Central)--LA City (Central/Hancock Park & Mid-Wilshire)","0605412",77692,0.999,0.999 
+"06","03731","05410","CA","Los Angeles County (Central)--West Hollywood & Beverly Hills Cities","0605410",230,0.004,0.003 
+"06","03731","05411","CA","Los Angeles County (Central)--West Hollywood & Beverly Hills Cities","0605411",17,0,0 
+"06","03731","05413","CA","Los Angeles County (Central)--West Hollywood & Beverly Hills Cities","0605413",23910,0.367,0.217 
+"06","03731","06125","CA","Los Angeles County (Central)--West Hollywood & Beverly Hills Cities","0606125",40972,0.629,0.331 
+"06","03732","05413","CA","Los Angeles County (Central)--LA City (East Central/Hollywood)","0605413",84023,1,0.762 
+"06","03733","05414","CA","Los Angeles County (Central)--LA City (Central/Koreatown)","0605414",47114,1,1 
+"06","03734","05415","CA","Los Angeles County--LA City (East Central/Silver Lake, Echo Park & Westlake)","0605415",75348,0.973,0.995 
+"06","03734","05416","CA","Los Angeles County--LA City (East Central/Silver Lake, Echo Park & Westlake)","0605416",2049,0.026,0.028 
+"06","03734","05417","CA","Los Angeles County--LA City (East Central/Silver Lake, Echo Park & Westlake)","0605417",27,0,0 
+"06","03734","05418","CA","Los Angeles County--LA City (East Central/Silver Lake, Echo Park & Westlake)","0605418",2,0,0 
+"06","03735","05416","CA","Los Angeles County--LA City (Mount Washington, Highland Park & Glassell Park)","0605416",63153,1,0.859 
+"06","03736","05416","CA","Los Angeles County (Central)--Alhambra & South Pasadena Cities","0605416",2211,0.05,0.03 
+"06","03736","06103","CA","Los Angeles County (Central)--Alhambra & South Pasadena Cities","0606103",42031,0.95,1 
+"06","03737","05100","CA","Los Angeles County (Central)--Monterey Park & Rosemead Cities","0605100",1,0,0 
+"06","03737","05300","CA","Los Angeles County (Central)--Monterey Park & Rosemead Cities","0605300",143,0.004,0.005 
+"06","03737","06103","CA","Los Angeles County (Central)--Monterey Park & Rosemead Cities","0606103",10,0,0 
+"06","03737","06104","CA","Los Angeles County (Central)--Monterey Park & Rosemead Cities","0606104",1378,0.035,0.022 
+"06","03737","06112","CA","Los Angeles County (Central)--Monterey Park & Rosemead Cities","0606112",38262,0.962,1 
+"06","03738","05100","CA","Los Angeles County (Central)--El Monte & South El Monte Cities","0605100",28506,0.864,0.98 
+"06","03738","06104","CA","Los Angeles County (Central)--El Monte & South El Monte Cities","0606104",4,0,0 
+"06","03738","06109","CA","Los Angeles County (Central)--El Monte & South El Monte Cities","0606109",4497,0.136,0.153 
+"06","03739","06108","CA","Los Angeles County (Southeast)--Whittier City & Hacienda Heights","0606108",24,0,0.001 
+"06","03739","06110","CA","Los Angeles County (Southeast)--Whittier City & Hacienda Heights","0606110",53992,1,0.985 
+"06","03740","05300","CA","Los Angeles County (Central)--Pico Rivera & Montebello Cities","0605300",177,0.005,0.006 
+"06","03740","06111","CA","Los Angeles County (Central)--Pico Rivera & Montebello Cities","0606111",37593,0.995,1 
+"06","03741","05300","CA","Los Angeles County (Central)--Bell Gardens, Bell, Maywood, Cudahy & Commerce Cities","0605300",3,0,0 
+"06","03741","06113","CA","Los Angeles County (Central)--Bell Gardens, Bell, Maywood, Cudahy & Commerce Cities","0606113",35154,0.985,1 
+"06","03741","06114","CA","Los Angeles County (Central)--Bell Gardens, Bell, Maywood, Cudahy & Commerce Cities","0606114",486,0.014,0.014 
+"06","03741","06115","CA","Los Angeles County (Central)--Bell Gardens, Bell, Maywood, Cudahy & Commerce Cities","0606115",51,0.001,0.001 
+"06","03742","06114","CA","Los Angeles County (Central)--Huntington Park City, Florence-Graham & Walnut Park","0606114",32289,1,0.958 
+"06","03743","05300","CA","Los Angeles County (Central)--East Los Angeles","0605300",31370,0.999,0.99 
+"06","03743","06111","CA","Los Angeles County (Central)--East Los Angeles","0606111",17,0.001,0 
+"06","03744","05415","CA","Los Angeles County (Central)--LA City (East Central/Central City & Boyle Heights)","0605415",356,0.006,0.005 
+"06","03744","05416","CA","Los Angeles County (Central)--LA City (East Central/Central City & Boyle Heights)","0605416",1544,0.025,0.021 
+"06","03744","05417","CA","Los Angeles County (Central)--LA City (East Central/Central City & Boyle Heights)","0605417",58699,0.969,1 
+"06","03745","05422","CA","Los Angeles County (Central)--LA City (Southeast/East Vernon)","0605422",28207,1,0.959 
+"06","03746","05418","CA","Los Angeles County--LA City (Central/Univ. of Southern California & Exposition Park)","0605418",32798,0.99,1 
+"06","03746","05422","CA","Los Angeles County--LA City (Central/Univ. of Southern California & Exposition Park)","0605422",320,0.01,0.011 
+"06","03747","05419","CA","Los Angeles County (Central)--LA City (Central/West Adams & Baldwin Hills)","0605419",61077,1,1 
+"06","03748","05420","CA","Los Angeles County--LA (Southwest/Marina del Rey & Westchester) & Culver City Cities","0605420",53893,0.627,0.903 
+"06","03748","05500","CA","Los Angeles County--LA (Southwest/Marina del Rey & Westchester) & Culver City Cities","0605500",101,0.001,0.003 
+"06","03748","06125","CA","Los Angeles County--LA (Southwest/Marina del Rey & Westchester) & Culver City Cities","0606125",31987,0.372,0.258 
+"06","03749","05500","CA","Los Angeles County (Central)--Inglewood City","0605500",38143,0.966,0.992 
+"06","03749","06124","CA","Los Angeles County (Central)--Inglewood City","0606124",1341,0.034,0.035 
+"06","03750","05421","CA","Los Angeles County (South Central)--LA City (South Central/Westmont)","0605421",50736,0.961,0.975 
+"06","03750","05422","CA","Los Angeles County (South Central)--LA City (South Central/Westmont)","0605422",881,0.017,0.03 
+"06","03750","05423","CA","Los Angeles County (South Central)--LA City (South Central/Westmont)","0605423",1163,0.022,0.031 
+"06","03751","05421","CA","Los Angeles County (South Central)--LA City (South Central/Watts)","0605421",1316,0.035,0.025 
+"06","03751","05423","CA","Los Angeles County (South Central)--LA City (South Central/Watts)","0605423",36693,0.965,0.969 
+"06","03752","06114","CA","Los Angeles County (South)--South Gate & Lynwood Cities","0606114",915,0.022,0.027 
+"06","03752","06115","CA","Los Angeles County (South)--South Gate & Lynwood Cities","0606115",40076,0.976,0.999 
+"06","03752","06119","CA","Los Angeles County (South)--South Gate & Lynwood Cities","0606119",51,0.001,0.001 
+"06","03753","05900","CA","Los Angeles County (South)--Downey City","0605900",35172,1,0.988 
+"06","03753","06113","CA","Los Angeles County (South)--Downey City","0606113",14,0,0 
+"06","03754","06110","CA","Los Angeles County (Southeast)--La Mirada & Santa Fe Springs Cities","0606110",824,0.02,0.015 
+"06","03754","06117","CA","Los Angeles County (Southeast)--La Mirada & Santa Fe Springs Cities","0606117",39429,0.98,0.998 
+"06","03755","05900","CA","Los Angeles County (Southeast)--Norwalk City","0605900",415,0.013,0.012 
+"06","03755","06000","CA","Los Angeles County (Southeast)--Norwalk City","0606000",28083,0.857,1 
+"06","03755","06116","CA","Los Angeles County (Southeast)--Norwalk City","0606116",4063,0.124,0.103 
+"06","03755","06117","CA","Los Angeles County (Southeast)--Norwalk City","0606117",73,0.002,0.002 
+"06","03755","06118","CA","Los Angeles County (Southeast)--Norwalk City","0606118",144,0.004,0.003 
+"06","03756","06115","CA","Los Angeles County (Southeast)--Bellflower & Paramount Cities","0606115",7,0,0 
+"06","03756","06116","CA","Los Angeles County (Southeast)--Bellflower & Paramount Cities","0606116",35397,1,0.895 
+"06","03756","06118","CA","Los Angeles County (Southeast)--Bellflower & Paramount Cities","0606118",1,0,0 
+"06","03757","06119","CA","Los Angeles County (South Central)--Compton City & West Rancho Dominguez","0606119",40290,1,0.999 
+"06","03758","05424","CA","Los Angeles County (South Central)--Gardena, Lawndale Cities & West Athens","0605424",3513,0.068,0.054 
+"06","03758","05600","CA","Los Angeles County (South Central)--Gardena, Lawndale Cities & West Athens","0605600",42,0.001,0.001 
+"06","03758","06123","CA","Los Angeles County (South Central)--Gardena, Lawndale Cities & West Athens","0606123",48411,0.931,1 
+"06","03758","06124","CA","Los Angeles County (South Central)--Gardena, Lawndale Cities & West Athens","0606124",14,0,0 
+"06","03759","05500","CA","Los Angeles County (South Central)--Hawthorne City","0605500",191,0.005,0.005 
+"06","03759","06124","CA","Los Angeles County (South Central)--Hawthorne City","0606124",37308,0.995,0.965 
+"06","03760","06122","CA","Los Angeles County--Redondo Beach, Manhattan Beach & Hermosa Beach Cities","0606122",63110,1,1 
+"06","03761","05424","CA","Los Angeles County (South Central)--Torrance City","0605424",29,0.001,0 
+"06","03761","05600","CA","Los Angeles County (South Central)--Torrance City","0605600",49641,0.999,0.85 
+"06","03762","06120","CA","Los Angeles County (South Central)--Carson City","0606120",33463,1,0.999 
+"06","03763","05701","CA","Los Angeles County (South Central)--Long Beach City (North)","0605701",45984,0.994,1 
+"06","03763","06116","CA","Los Angeles County (South Central)--Long Beach City (North)","0606116",1,0,0 
+"06","03763","06118","CA","Los Angeles County (South Central)--Long Beach City (North)","0606118",278,0.006,0.005 
+"06","03763","06120","CA","Los Angeles County (South Central)--Long Beach City (North)","0606120",12,0,0 
+"06","03764","06116","CA","Los Angeles County (South)--Lakewood, Cerritos, Artesia & Hawaiian Gardens Cities","0606116",77,0.001,0.002 
+"06","03764","06118","CA","Los Angeles County (South)--Lakewood, Cerritos, Artesia & Hawaiian Gardens Cities","0606118",51407,0.998,0.981 
+"06","03764","07605","CA","Los Angeles County (South)--Lakewood, Cerritos, Artesia & Hawaiian Gardens Cities","0607605",1,0,0 
+"06","03765","05703","CA","Los Angeles County (Southeast)--Long Beach City (East)","0605703",57695,0.991,1 
+"06","03765","06118","CA","Los Angeles County (Southeast)--Long Beach City (East)","0606118",549,0.009,0.01 
+"06","03765","06121","CA","Los Angeles County (Southeast)--Long Beach City (East)","0606121",1,0,0 
+"06","03766","05702","CA","Los Angeles County (South)--Long Beach City (Southwest & Port)","0605702",36435,1,0.504 
+"06","03766","06121","CA","Los Angeles County (South)--Long Beach City (Southwest & Port)","0606121",1,0,0 
+"06","03767","05424","CA","Los Angeles County (South)--LA City (South/San Pedro)","0605424",61227,0.989,0.945 
+"06","03767","06120","CA","Los Angeles County (South)--LA City (South/San Pedro)","0606120",5,0,0 
+"06","03767","06121","CA","Los Angeles County (South)--LA City (South/San Pedro)","0606121",663,0.011,0.016 
+"06","03767","06123","CA","Los Angeles County (South)--LA City (South/San Pedro)","0606123",1,0,0 
+"06","03768","05600","CA","Los Angeles County (Southwest)--Palos Verdes Peninsula","0605600",8707,0.19,0.149 
+"06","03768","06121","CA","Los Angeles County (Southwest)--Palos Verdes Peninsula","0606121",37071,0.81,0.88 
+"06","03768","06122","CA","Los Angeles County (Southwest)--Palos Verdes Peninsula","0606122",1,0,0 
+"06","03769","05702","CA","Los Angeles County (Southeast)--Long Beach (Central) & Signal Hill Cities","0605702",35892,0.891,0.496 
+"06","03769","05703","CA","Los Angeles County (Southeast)--Long Beach (Central) & Signal Hill Cities","0605703",16,0,0 
+"06","03769","06121","CA","Los Angeles County (Southeast)--Long Beach (Central) & Signal Hill Cities","0606121",4387,0.109,0.104 
+"06","03900","03200","CA","Madera County--Madera City","0603200",49140,1,1 
+"06","04101","01201","CA","Marin County (North & West)--Novato & San Rafael (North) Cities","0601201",46577,1,1 
+"06","04102","01202","CA","Marin County (Southeast)--San Rafael (South), Mill Valley & Sausalito Cities","0601202",64637,1,1 
+"06","04701","03100","CA","Merced County (West & South)--Los Banos & Livingston Cities","0603100",33026,0.995,0.395 
+"06","04701","03401","CA","Merced County (West & South)--Los Banos & Livingston Cities","0603401",157,0.005,0.003 
+"06","04702","03100","CA","Merced County (Northeast)--Merced & Atwater Cities","0603100",50515,1,0.605 
+"06","05301","03001","CA","Monterey County (North Central)--Seaside, Monterey, Marina & Pacific Grove Cities","0603001",56158,0.759,1 
+"06","05301","03002","CA","Monterey County (North Central)--Seaside, Monterey, Marina & Pacific Grove Cities","0603002",17836,0.241,0.304 
+"06","05302","02900","CA","Monterey County (Northeast)--Salinas City","0602900",42089,0.901,1 
+"06","05302","03001","CA","Monterey County (Northeast)--Salinas City","0603001",1,0,0 
+"06","05302","03002","CA","Monterey County (Northeast)--Salinas City","0603002",4617,0.099,0.079 
+"06","05303","03002","CA","Monterey (South & East) & San Benito Counties","0603002",36217,1,0.617 
+"06","05500","01000","CA","Napa County--Napa City","0601000",54759,1,1 
+"06","05700","00700","CA","Nevada & Sierra Counties","0600700",54918,1,0.779 
+"06","05901","07601","CA","Orange County (Southwest)--San Clemente, Laguna Niguel & San Juan Capistrano Cities","0607601",72297,0.974,1 
+"06","05901","07607","CA","Orange County (Southwest)--San Clemente, Laguna Niguel & San Juan Capistrano Cities","0607607",1897,0.026,0.019 
+"06","05902","07602","CA","Orange County (South Central)--Mission Viejo & Rancho Santa Margarita (West) Cities","0607602",38800,1,0.531 
+"06","05903","06900","CA","Orange County (West Central)--Newport Beach, Aliso Viejo & Laguna Hills Cities","0606900",180,0.002,0.004 
+"06","05903","07300","CA","Orange County (West Central)--Newport Beach, Aliso Viejo & Laguna Hills Cities","0607300",4691,0.049,0.06 
+"06","05903","07607","CA","Orange County (West Central)--Newport Beach, Aliso Viejo & Laguna Hills Cities","0607607",91136,0.949,0.9 
+"06","05904","06900","CA","Orange County (Central)--Irvine City (Central)","0606900",1,0,0 
+"06","05904","07300","CA","Orange County (Central)--Irvine City (Central)","0607300",66595,0.848,0.855 
+"06","05904","07603","CA","Orange County (Central)--Irvine City (Central)","0607603",11891,0.151,0.161 
+"06","05904","07607","CA","Orange County (Central)--Irvine City (Central)","0607607",23,0,0 
+"06","05905","06802","CA","Orange County (Northeast)--Lake Forest, Irvine (North) Cities & Silverado","0606802",3749,0.054,0.081 
+"06","05905","07300","CA","Orange County (Northeast)--Lake Forest, Irvine (North) Cities & Silverado","0607300",6608,0.095,0.085 
+"06","05905","07400","CA","Orange County (Northeast)--Lake Forest, Irvine (North) Cities & Silverado","0607400",1650,0.024,0.037 
+"06","05905","07502","CA","Orange County (Northeast)--Lake Forest, Irvine (North) Cities & Silverado","0607502",1898,0.027,0.045 
+"06","05905","07603","CA","Orange County (Northeast)--Lake Forest, Irvine (North) Cities & Silverado","0607603",55305,0.799,0.747 
+"06","05906","06117","CA","Orange County (North)--Yorba Linda, La Habra & Brea Cities","0606117",14,0,0 
+"06","05906","06802","CA","Orange County (North)--Yorba Linda, La Habra & Brea Cities","0606802",1861,0.03,0.04 
+"06","05906","07000","CA","Orange County (North)--Yorba Linda, La Habra & Brea Cities","0607000",346,0.006,0.007 
+"06","05906","07604","CA","Orange County (North)--Yorba Linda, La Habra & Brea Cities","0607604",59622,0.964,0.787 
+"06","05907","06802","CA","Orange County (North Central)--Fullerton & Placentia Cities","0606802",1728,0.026,0.037 
+"06","05907","07000","CA","Orange County (North Central)--Fullerton & Placentia Cities","0607000",47236,0.719,0.992 
+"06","05907","07604","CA","Orange County (North Central)--Fullerton & Placentia Cities","0607604",16129,0.245,0.213 
+"06","05907","07605","CA","Orange County (North Central)--Fullerton & Placentia Cities","0607605",618,0.009,0.009 
+"06","05908","06118","CA","Orange County (Northwest)--Buena Park, Cypress & Seal Beach Cities","0606118",9,0,0 
+"06","05908","06801","CA","Orange County (Northwest)--Buena Park, Cypress & Seal Beach Cities","0606801",895,0.014,0.016 
+"06","05908","07605","CA","Orange County (Northwest)--Buena Park, Cypress & Seal Beach Cities","0607605",63756,0.986,0.914 
+"06","05909","06801","CA","Orange County (North Central)--Anaheim City (West)","0606801",37752,0.856,0.659 
+"06","05909","07100","CA","Orange County (North Central)--Anaheim City (West)","0607100",234,0.005,0.005 
+"06","05909","07605","CA","Orange County (North Central)--Anaheim City (West)","0607605",3194,0.072,0.046 
+"06","05909","07606","CA","Orange County (North Central)--Anaheim City (West)","0607606",2935,0.067,0.046 
+"06","05910","06801","CA","Orange County (North Central)--Anaheim City (East)","0606801",15258,0.261,0.267 
+"06","05910","06802","CA","Orange County (North Central)--Anaheim City (East)","0606802",38534,0.66,0.828 
+"06","05910","07000","CA","Orange County (North Central)--Anaheim City (East)","0607000",36,0.001,0.001 
+"06","05910","07400","CA","Orange County (North Central)--Anaheim City (East)","0607400",4522,0.077,0.101 
+"06","05910","07604","CA","Orange County (North Central)--Anaheim City (East)","0607604",3,0,0 
+"06","05911","06802","CA","Orange County (Central)--Orange & Villa Park Cities","0606802",671,0.014,0.014 
+"06","05911","07400","CA","Orange County (Central)--Orange & Villa Park Cities","0607400",38380,0.824,0.856 
+"06","05911","07502","CA","Orange County (Central)--Orange & Villa Park Cities","0607502",777,0.017,0.018 
+"06","05911","07603","CA","Orange County (Central)--Orange & Villa Park Cities","0607603",6751,0.145,0.091 
+"06","05912","06801","CA","Orange County (Northwest)--Westminster, Stanton & Garden Grove (West) Cities","0606801",1859,0.036,0.032 
+"06","05912","07100","CA","Orange County (Northwest)--Westminster, Stanton & Garden Grove (West) Cities","0607100",6593,0.128,0.137 
+"06","05912","07200","CA","Orange County (Northwest)--Westminster, Stanton & Garden Grove (West) Cities","0607200",1911,0.037,0.025 
+"06","05912","07605","CA","Orange County (Northwest)--Westminster, Stanton & Garden Grove (West) Cities","0607605",1189,0.023,0.017 
+"06","05912","07606","CA","Orange County (Northwest)--Westminster, Stanton & Garden Grove (West) Cities","0607606",39959,0.776,0.628 
+"06","05913","06801","CA","Orange County (Northwest)--Garden Grove City (East)","0606801",1489,0.034,0.026 
+"06","05913","07100","CA","Orange County (Northwest)--Garden Grove City (East)","0607100",39838,0.921,0.829 
+"06","05913","07400","CA","Orange County (Northwest)--Garden Grove City (East)","0607400",305,0.007,0.007 
+"06","05913","07501","CA","Orange County (Northwest)--Garden Grove City (East)","0607501",1436,0.033,0.042 
+"06","05913","07606","CA","Orange County (Northwest)--Garden Grove City (East)","0607606",180,0.004,0.003 
+"06","05914","07200","CA","Orange County (Northwest)--Huntington Beach City","0607200",75991,0.97,0.975 
+"06","05914","07605","CA","Orange County (Northwest)--Huntington Beach City","0607605",999,0.013,0.014 
+"06","05914","07606","CA","Orange County (Northwest)--Huntington Beach City","0607606",1373,0.018,0.022 
+"06","05915","07602","CA","Orange County (Southeast)--Rancho Santa Margarita City (East) & Ladera Ranch","0607602",34330,1,0.469 
+"06","05916","07100","CA","Orange County (Central)--Santa Ana City (West)","0607100",1384,0.04,0.029 
+"06","05916","07501","CA","Orange County (Central)--Santa Ana City (West)","0607501",32834,0.943,0.958 
+"06","05916","07606","CA","Orange County (Central)--Santa Ana City (West)","0607606",600,0.017,0.009 
+"06","05917","07502","CA","Orange County (Central)--Santa Ana City (East)","0607502",39951,0.998,0.937 
+"06","05917","07603","CA","Orange County (Central)--Santa Ana City (East)","0607603",100,0.002,0.001 
+"06","05918","06900","CA","Orange County (Central)--Costa Mesa & Fountain Valley Cities","0606900",41824,0.61,0.996 
+"06","05918","07606","CA","Orange County (Central)--Costa Mesa & Fountain Valley Cities","0607606",18573,0.271,0.292 
+"06","05918","07607","CA","Orange County (Central)--Costa Mesa & Fountain Valley Cities","0607607",8207,0.12,0.081 
+"06","06101","01601","CA","Placer County (Southwest)--Roseville City","0601601",3253,0.065,0.037 
+"06","06101","01602","CA","Placer County (Southwest)--Roseville City","0601602",46502,0.935,0.715 
+"06","06102","01601","CA","Placer County (Central)--Rocklin, Lincoln Cities & Loomis Town","0601601",25838,0.583,0.295 
+"06","06102","01602","CA","Placer County (Central)--Rocklin, Lincoln Cities & Loomis Town","0601602",18491,0.417,0.285 
+"06","06103","01601","CA","Placer County (East/High Country Region)--Auburn & Colfax Cities","0601601",58564,1,0.668 
+"06","06501","08004","CA","Riverside County (East)--Indio, Coachella, Blythe & La Quinta (East) Cities","0608004",1,0,0 
+"06","06501","08005","CA","Riverside County (East)--Indio, Coachella, Blythe & La Quinta (East) Cities","0608005",62310,1,0.723 
+"06","06502","08004","CA","Riverside County (Central)--Cathedral City, Palm Springs & Rancho Mirage Cities","0608004",82757,1,0.551 
+"06","06503","08002","CA","Riverside County (Southwest)--Temecula City","0608002",44132,1,0.338 
+"06","06504","08002","CA","Riverside County (Southwest)--Murrieta & Wildomar Cities","0608002",42991,1,0.329 
+"06","06505","08001","CA","Riverside County (Southwest)--Menifee, Lake Elsinore & Canyon Lake Cities","0608001",32302,0.514,0.245 
+"06","06505","08002","CA","Riverside County (Southwest)--Menifee, Lake Elsinore & Canyon Lake Cities","0608002",30502,0.486,0.234 
+"06","06506","08002","CA","Riverside County (Southwest)--Hemet City & East Hemet","0608002",12972,0.223,0.099 
+"06","06506","08003","CA","Riverside County (Southwest)--Hemet City & East Hemet","0608003",45295,0.777,0.437 
+"06","06507","08003","CA","Riverside County (North Central)--San Jacinto, Beaumont, Banning & Calimesa Cities","0608003",54507,1,0.525 
+"06","06508","07900","CA","Riverside County (Northwest)--Moreno Valley City","0607900",52006,0.991,0.937 
+"06","06508","08001","CA","Riverside County (Northwest)--Moreno Valley City","0608001",71,0.001,0.001 
+"06","06508","08003","CA","Riverside County (Northwest)--Moreno Valley City","0608003",399,0.008,0.004 
+"06","06509","08001","CA","Riverside County (West Central)--Perris City, Temescal Valley & Mead Valley","0608001",30158,0.903,0.229 
+"06","06509","08003","CA","Riverside County (West Central)--Perris City, Temescal Valley & Mead Valley","0608003",3240,0.097,0.031 
+"06","06510","07801","CA","Riverside County (Northwest)--Riverside City (East)","0607801",4807,0.098,0.126 
+"06","06510","07802","CA","Riverside County (Northwest)--Riverside City (East)","0607802",37598,0.769,0.643 
+"06","06510","07900","CA","Riverside County (Northwest)--Riverside City (East)","0607900",3476,0.071,0.063 
+"06","06510","08001","CA","Riverside County (Northwest)--Riverside City (East)","0608001",2729,0.056,0.021 
+"06","06510","08003","CA","Riverside County (Northwest)--Riverside City (East)","0608003",302,0.006,0.003 
+"06","06511","07801","CA","Riverside County (Northwest)--Riverside City (West)","0607801",32760,0.632,0.856 
+"06","06511","07802","CA","Riverside County (Northwest)--Riverside City (West)","0607802",18864,0.364,0.323 
+"06","06511","08001","CA","Riverside County (Northwest)--Riverside City (West)","0608001",220,0.004,0.002 
+"06","06512","07700","CA","Riverside County (West Central)--Corona City (South), Woodcrest & Home Gardens","0607700",10976,0.363,0.239 
+"06","06512","07801","CA","Riverside County (West Central)--Corona City (South), Woodcrest & Home Gardens","0607801",687,0.023,0.018 
+"06","06512","07802","CA","Riverside County (West Central)--Corona City (South), Woodcrest & Home Gardens","0607802",1996,0.066,0.034 
+"06","06512","08001","CA","Riverside County (West Central)--Corona City (South), Woodcrest & Home Gardens","0608001",16593,0.548,0.126 
+"06","06513","07700","CA","Riverside County (West Central)--Corona (Northwest) & Norco Cities","0607700",34901,0.796,0.761 
+"06","06513","08001","CA","Riverside County (West Central)--Corona (Northwest) & Norco Cities","0608001",8925,0.204,0.068 
+"06","06514","08001","CA","Riverside County (Northwest)--Jurupa Valley & Eastvale Cities","0608001",40976,1,0.31 
+"06","06515","08004","CA","Riverside County--Palm Desert, La Quinta (West) & Desert Hot Springs Cities","0608004",67402,0.739,0.449 
+"06","06515","08005","CA","Riverside County--Palm Desert, La Quinta (West) & Desert Hot Springs Cities","0608005",23852,0.261,0.277 
+"06","06701","01502","CA","Sacramento County (North Central)--Citrus Heights City","0601502",44299,1,1 
+"06","06702","01503","CA","Sacramento County (Central)--Rancho Cordova City","0601503",6115,0.138,0.092 
+"06","06702","01504","CA","Sacramento County (Central)--Rancho Cordova City","0601504",20485,0.461,0.267 
+"06","06702","01506","CA","Sacramento County (Central)--Rancho Cordova City","0601506",17797,0.401,0.278 
+"06","06703","01503","CA","Sacramento County (North Central)--Arden-Arcade, Carmichael & Fair Oaks (West)","0601503",19620,0.397,0.294 
+"06","06703","01504","CA","Sacramento County (North Central)--Arden-Arcade, Carmichael & Fair Oaks (West)","0601504",29741,0.603,0.388 
+"06","06704","01402","CA","Sacramento County (North Central)--North Highlands, Foothill Farms & McClellan Park","0601402",3,0,0 
+"06","06704","01501","CA","Sacramento County (North Central)--North Highlands, Foothill Farms & McClellan Park","0601501",28999,0.564,0.57 
+"06","06704","01504","CA","Sacramento County (North Central)--North Highlands, Foothill Farms & McClellan Park","0601504",22412,0.436,0.292 
+"06","06705","01401","CA","Sacramento County (Northwest)--Sacramento City (Northwest/Natomas)","0601401",40921,0.992,0.522 
+"06","06705","01501","CA","Sacramento County (Northwest)--Sacramento City (Northwest/Natomas)","0601501",330,0.008,0.006 
+"06","06706","01401","CA","Sacramento County (North)--Sacramento City (North), Antelope & Rio Linda","0601401",16646,0.436,0.213 
+"06","06706","01501","CA","Sacramento County (North)--Sacramento City (North), Antelope & Rio Linda","0601501",21525,0.564,0.423 
+"06","06707","01401","CA","Sacramento County (West)--Sacramento City (Central/Downtown & Midtown)","0601401",20752,0.343,0.265 
+"06","06707","01402","CA","Sacramento County (West)--Sacramento City (Central/Downtown & Midtown)","0601402",20835,0.344,0.455 
+"06","06707","01403","CA","Sacramento County (West)--Sacramento City (Central/Downtown & Midtown)","0601403",14948,0.247,0.224 
+"06","06707","01504","CA","Sacramento County (West)--Sacramento City (Central/Downtown & Midtown)","0601504",4022,0.066,0.052 
+"06","06708","01402","CA","Sacramento County--Sacramento City (Southeast/Fruitridge, Avondale & Depot Park)","0601402",24964,0.508,0.545 
+"06","06708","01403","CA","Sacramento County--Sacramento City (Southeast/Fruitridge, Avondale & Depot Park)","0601403",1322,0.027,0.02 
+"06","06708","01505","CA","Sacramento County--Sacramento City (Southeast/Fruitridge, Avondale & Depot Park)","0601505",22185,0.452,0.357 
+"06","06708","01506","CA","Sacramento County--Sacramento City (Southeast/Fruitridge, Avondale & Depot Park)","0601506",651,0.013,0.01 
+"06","06709","01403","CA","Sacramento County--Sacramento City (Southwest/Pocket, Meadowview & North Laguna)","0601403",50161,1,0.751 
+"06","06710","01403","CA","Sacramento County (Central)--Elk Grove City","0601403",335,0.007,0.005 
+"06","06710","01505","CA","Sacramento County (Central)--Elk Grove City","0601505",31643,0.63,0.51 
+"06","06710","01506","CA","Sacramento County (Central)--Elk Grove City","0601506",18267,0.364,0.286 
+"06","06711","01403","CA","Sacramento County (South)--Galt, Isleton Cities & Delta Region","0601403",28,0.001,0 
+"06","06711","01505","CA","Sacramento County (South)--Galt, Isleton Cities & Delta Region","0601505",8233,0.232,0.133 
+"06","06711","01506","CA","Sacramento County (South)--Galt, Isleton Cities & Delta Region","0601506",27267,0.767,0.426 
+"06","06712","01503","CA","Sacramento County (Northeast)--Folsom City, Orangevale & Fair Oaks (East)","0601503",41094,0.992,0.615 
+"06","06712","01700","CA","Sacramento County (Northeast)--Folsom City, Orangevale & Fair Oaks (East)","0601700",332,0.008,0.004 
+"06","07101","04405","CA","San Bernardino County (Northeast)--Twentynine Palms & Barstow Cities","0604405",67255,1,0.662 
+"06","07102","04406","CA","San Bernardino County (West Central)--Victorville & Adelanto Cities","0604406",7938,0.155,0.08 
+"06","07102","04407","CA","San Bernardino County (West Central)--Victorville & Adelanto Cities","0604407",43358,0.845,0.797 
+"06","07103","04405","CA","San Bernardino County (West Central)--Hesperia City & Apple Valley Town","0604405",2267,0.039,0.022 
+"06","07103","04406","CA","San Bernardino County (West Central)--Hesperia City & Apple Valley Town","0604406",44477,0.77,0.446 
+"06","07103","04407","CA","San Bernardino County (West Central)--Hesperia City & Apple Valley Town","0604407",11033,0.191,0.203 
+"06","07104","04100","CA","San Bernardino County (Southwest)--Phelan, Lake Arrowhead & Big Bear City","0604100",33,0,0.001 
+"06","07104","04200","CA","San Bernardino County (Southwest)--Phelan, Lake Arrowhead & Big Bear City","0604200",49,0.001,0.001 
+"06","07104","04300","CA","San Bernardino County (Southwest)--Phelan, Lake Arrowhead & Big Bear City","0604300",3625,0.05,0.056 
+"06","07104","04405","CA","San Bernardino County (Southwest)--Phelan, Lake Arrowhead & Big Bear City","0604405",31996,0.438,0.315 
+"06","07104","04406","CA","San Bernardino County (Southwest)--Phelan, Lake Arrowhead & Big Bear City","0604406",37336,0.511,0.374 
+"06","07104","06101","CA","San Bernardino County (Southwest)--Phelan, Lake Arrowhead & Big Bear City","0606101",24,0,0 
+"06","07105","04404","CA","San Bernardino County (Southwest)--Redlands & Yucaipa Cities","0604404",52492,1,0.655 
+"06","07106","04300","CA","San Bernardino County (Southwest)--Colton, Loma Linda & Grand Terrace Cities","0604300",1334,0.039,0.021 
+"06","07106","04403","CA","San Bernardino County (Southwest)--Colton, Loma Linda & Grand Terrace Cities","0604403",23562,0.689,0.376 
+"06","07106","04404","CA","San Bernardino County (Southwest)--Colton, Loma Linda & Grand Terrace Cities","0604404",9309,0.272,0.116 
+"06","07107","04300","CA","San Bernardino County (Southwest)--San Bernardino City (East)","0604300",12081,0.363,0.188 
+"06","07107","04404","CA","San Bernardino County (Southwest)--San Bernardino City (East)","0604404",18310,0.55,0.229 
+"06","07107","04406","CA","San Bernardino County (Southwest)--San Bernardino City (East)","0604406",2899,0.087,0.029 
+"06","07108","04300","CA","San Bernardino County (Southwest)--San Bernardino City (West)","0604300",47283,0.92,0.734 
+"06","07108","04403","CA","San Bernardino County (Southwest)--San Bernardino City (West)","0604403",403,0.008,0.006 
+"06","07108","04406","CA","San Bernardino County (Southwest)--San Bernardino City (West)","0604406",3733,0.073,0.037 
+"06","07109","04200","CA","San Bernardino County (Southwest)--Rialto City","0604200",2627,0.089,0.056 
+"06","07109","04300","CA","San Bernardino County (Southwest)--Rialto City","0604300",83,0.003,0.001 
+"06","07109","04403","CA","San Bernardino County (Southwest)--Rialto City","0604403",25329,0.856,0.404 
+"06","07109","04406","CA","San Bernardino County (Southwest)--Rialto City","0604406",1549,0.052,0.016 
+"06","07110","04200","CA","San Bernardino County (Southwest)--Fontana City (East)","0604200",21123,0.754,0.453 
+"06","07110","04403","CA","San Bernardino County (Southwest)--Fontana City (East)","0604403",6903,0.246,0.11 
+"06","07111","04100","CA","San Bernardino County (Southwest)--Rancho Cucamonga City","0604100",55434,0.98,0.999 
+"06","07111","04402","CA","San Bernardino County (Southwest)--Rancho Cucamonga City","0604402",11,0,0 
+"06","07111","04406","CA","San Bernardino County (Southwest)--Rancho Cucamonga City","0604406",1145,0.02,0.011 
+"06","07112","04000","CA","San Bernardino County (Southwest)--Upland & Montclair Cities","0604000",6,0,0 
+"06","07112","04401","CA","San Bernardino County (Southwest)--Upland & Montclair Cities","0604401",1574,0.039,0.032 
+"06","07112","04402","CA","San Bernardino County (Southwest)--Upland & Montclair Cities","0604402",38623,0.961,1 
+"06","07113","04000","CA","San Bernardino County (Southwest)--Ontario City","0604000",46807,0.966,0.986 
+"06","07113","04401","CA","San Bernardino County (Southwest)--Ontario City","0604401",1652,0.034,0.034 
+"06","07114","04000","CA","San Bernardino County (Southwest)--Chino & Chino Hills Cities","0604000",636,0.014,0.013 
+"06","07114","04401","CA","San Bernardino County (Southwest)--Chino & Chino Hills Cities","0604401",45382,0.986,0.934 
+"06","07115","04200","CA","San Bernardino County (Southwest)--Fontana City (West)","0604200",22826,0.762,0.49 
+"06","07115","04403","CA","San Bernardino County (Southwest)--Fontana City (West)","0604403",6459,0.216,0.103 
+"06","07115","04406","CA","San Bernardino County (Southwest)--Fontana City (West)","0604406",671,0.022,0.007 
+"06","07301","08115","CA","San Diego County (Northwest)--Oceanside City & Camp Pendleton","0608115",1,0,0 
+"06","07301","08116","CA","San Diego County (Northwest)--Oceanside City & Camp Pendleton","0608116",65394,1,0.966 
+"06","07302","08103","CA","San Diego County (North & East)--Fallbrook, Alpine & Valley Center","0608103",19207,0.394,0.302 
+"06","07302","08114","CA","San Diego County (North & East)--Fallbrook, Alpine & Valley Center","0608114",11552,0.237,0.174 
+"06","07302","08115","CA","San Diego County (North & East)--Fallbrook, Alpine & Valley Center","0608115",18045,0.37,0.216 
+"06","07302","08116","CA","San Diego County (North & East)--Fallbrook, Alpine & Valley Center","0608116",1,0,0 
+"06","07303","08115","CA","San Diego County (Northwest)--Vista City","0608115",33323,0.936,0.4 
+"06","07303","08116","CA","San Diego County (Northwest)--Vista City","0608116",2268,0.064,0.034 
+"06","07304","08113","CA","San Diego County (Northwest)--Carlsbad City","0608113",49126,1,0.548 
+"06","07305","08114","CA","San Diego County (Northwest)--San Marcos & Escondido (West) Cities","0608114",10409,0.246,0.157 
+"06","07305","08115","CA","San Diego County (Northwest)--San Marcos & Escondido (West) Cities","0608115",31924,0.754,0.383 
+"06","07306","08114","CA","San Diego County (Northwest)--Escondido City (East)","0608114",44379,1,0.669 
+"06","07307","08103","CA","San Diego County (Central)--Lakeside, Winter Gardens & Ramona","0608103",39022,1,0.614 
+"06","07308","08112","CA","San Diego County (Central)--San Diego (Northeast/Rancho Bernardo) & Poway Cities","0608112",48795,1,0.667 
+"06","07309","08111","CA","San Diego County (West)--San Diego (Northwest/San Dieguito) & Encinitas Cities","0608111",192,0.003,0.003 
+"06","07309","08112","CA","San Diego County (West)--San Diego (Northwest/San Dieguito) & Encinitas Cities","0608112",24370,0.374,0.333 
+"06","07309","08113","CA","San Diego County (West)--San Diego (Northwest/San Dieguito) & Encinitas Cities","0608113",40456,0.621,0.452 
+"06","07309","08115","CA","San Diego County (West)--San Diego (Northwest/San Dieguito) & Encinitas Cities","0608115",105,0.002,0.001 
+"06","07310","08101","CA","San Diego County (West)--San Diego City (Southwest/Central Coastal)","0608101",37655,0.459,0.307 
+"06","07310","08102","CA","San Diego County (West)--San Diego City (Southwest/Central Coastal)","0608102",1,0,0 
+"06","07310","08110","CA","San Diego County (West)--San Diego City (Southwest/Central Coastal)","0608110",41733,0.509,0.611 
+"06","07310","08111","CA","San Diego County (West)--San Diego City (Southwest/Central Coastal)","0608111",2590,0.032,0.045 
+"06","07311","08111","CA","San Diego County (West Central)--San Diego City (Northwest/Del Mar Mesa)","0608111",39269,1,0.684 
+"06","07312","08110","CA","San Diego County (Central)--San Diego City (Central/Mira Mesa & University Heights)","0608110",26556,0.633,0.389 
+"06","07312","08111","CA","San Diego County (Central)--San Diego City (Central/Mira Mesa & University Heights)","0608111",15372,0.367,0.268 
+"06","07313","08108","CA","San Diego County (Central)--El Cajon & Santee Cities","0608108",64280,1,0.704 
+"06","07314","08107","CA","San Diego County (Central)--San Diego (East Central/Navajo) & La Mesa Cities","0608107",2,0,0 
+"06","07314","08108","CA","San Diego County (Central)--San Diego (East Central/Navajo) & La Mesa Cities","0608108",27010,0.423,0.296 
+"06","07314","08109","CA","San Diego County (Central)--San Diego (East Central/Navajo) & La Mesa Cities","0608109",36828,0.577,0.365 
+"06","07315","08109","CA","San Diego County (West Central)--San Diego City (Central/Clairemont & Kearny Mesa)","0608109",64017,1,0.635 
+"06","07316","08101","CA","San Diego County (South Central)--San Diego City (Central/Centre City & Balboa Park)","0608101",84931,1,0.693 
+"06","07317","08107","CA","San Diego County (South Central)--San Diego City (Central/Mid-City)","0608107",60511,1,1 
+"06","07317","08108","CA","San Diego County (South Central)--San Diego City (Central/Mid-City)","0608108",4,0,0 
+"06","07318","08105","CA","San Diego County (South)--San Diego City (Southeast/Encanto & Skyline)","0608105",43906,1,0.726 
+"06","07319","08103","CA","San Diego County (South Central)--Lemon Grove City, La Presa & Spring Valley","0608103",5364,0.122,0.084 
+"06","07319","08106","CA","San Diego County (South Central)--Lemon Grove City, La Presa & Spring Valley","0608106",38732,0.878,1 
+"06","07319","08108","CA","San Diego County (South Central)--Lemon Grove City, La Presa & Spring Valley","0608108",11,0,0 
+"06","07320","08104","CA","San Diego County (Southwest)--Sweetwater Region--Chula Vista City (East)","0608104",42466,1,0.519 
+"06","07321","08104","CA","San Diego County (Southwest)--Chula Vista (West) & National City Cities","0608104",39396,0.704,0.481 
+"06","07321","08105","CA","San Diego County (Southwest)--Chula Vista (West) & National City Cities","0608105",16598,0.296,0.274 
+"06","07322","08102","CA","San Diego County (South)--San Diego City (South/Otay Mesa & South Bay)","0608102",38985,1,1 
+"06","07501","02201","CA","San Francisco County (North & West)--Richmond District","0602201",68229,1,1 
+"06","07501","02206","CA","San Francisco County (North & West)--Richmond District","0602206",1,0,0 
+"06","07502","02202","CA","San Francisco County (North & East)--North Beach & Chinatown","0602202",67182,1,1 
+"06","07503","02203","CA","San Francisco County (Central)--South of Market & Potrero","0602203",69806,1,1 
+"06","07504","02204","CA","San Francisco County (Central)--Inner Mission & Castro","0602204",55061,1,1 
+"06","07505","02205","CA","San Francisco County (Central)--Sunset District (North)","0602205",44269,1,1 
+"06","07506","02206","CA","San Francisco County (South Central)--Sunset District (South)","0602206",40034,1,1 
+"06","07507","02207","CA","San Francisco County (South Central)--Bayview & Hunters Point","0602207",32360,1,1 
+"06","07701","01902","CA","San Joaquin County (Central)--Stockton City (North)","0601902",54694,0.882,0.986 
+"06","07701","02002","CA","San Joaquin County (Central)--Stockton City (North)","0602002",7305,0.118,0.109 
+"06","07702","01901","CA","San Joaquin County (Central)--Stockton City (South)","0601901",40971,0.813,0.994 
+"06","07702","02002","CA","San Joaquin County (Central)--Stockton City (South)","0602002",9439,0.187,0.14 
+"06","07703","02001","CA","San Joaquin County (South)--Tracy, Manteca & Lathrop Cities","0602001",62744,1,0.899 
+"06","07704","01901","CA","San Joaquin County (North)--Lodi, Ripon & Escalon Cities","0601901",262,0.004,0.006 
+"06","07704","01902","CA","San Joaquin County (North)--Lodi, Ripon & Escalon Cities","0601902",765,0.013,0.014 
+"06","07704","02001","CA","San Joaquin County (North)--Lodi, Ripon & Escalon Cities","0602001",7035,0.12,0.101 
+"06","07704","02002","CA","San Joaquin County (North)--Lodi, Ripon & Escalon Cities","0602002",50540,0.862,0.751 
+"06","07901","03701","CA","San Luis Obispo County (West)--Coastal Region","0603701",20486,0.271,0.344 
+"06","07901","03702","CA","San Luis Obispo County (West)--Coastal Region","0603702",55198,0.729,0.957 
+"06","07902","03701","CA","San Luis Obispo County (East)--Inland Region","0603701",39138,0.94,0.656 
+"06","07902","03702","CA","San Luis Obispo County (East)--Inland Region","0603702",2493,0.06,0.043 
+"06","08101","02301","CA","San Mateo County (North Central)--Daly City, Pacifica Cities & Colma Town","0602301",47124,1,1 
+"06","08101","02302","CA","San Mateo County (North Central)--Daly City, Pacifica Cities & Colma Town","0602302",19,0,0 
+"06","08102","02301","CA","San Mateo County (North Central)--South San Francisco, San Bruno & Brisbane Cities","0602301",1,0,0 
+"06","08102","02302","CA","San Mateo County (North Central)--South San Francisco, San Bruno & Brisbane Cities","0602302",41604,1,0.999 
+"06","08103","02302","CA","San Mateo County (Central)--San Mateo (North), Burlingame & Millbrae Cities","0602302",13,0,0 
+"06","08103","02303","CA","San Mateo County (Central)--San Mateo (North), Burlingame & Millbrae Cities","0602303",42909,1,1 
+"06","08103","02304","CA","San Mateo County (Central)--San Mateo (North), Burlingame & Millbrae Cities","0602304",4,0,0 
+"06","08104","02304","CA","San Mateo County (South & West)--San Mateo (South) & Half Moon Bay Cities","0602304",48289,1,1 
+"06","08104","02305","CA","San Mateo County (South & West)--San Mateo (South) & Half Moon Bay Cities","0602305",22,0,0 
+"06","08105","02305","CA","San Mateo County (East Central)--Redwood City, San Carlos & Belmont Cities","0602305",51169,1,1 
+"06","08106","02306","CA","San Mateo County (Southeast)--Menlo Park, East Palo Alto Cities & Atherton Town","0602306",39877,1,1 
+"06","08301","06701","CA","Santa Barbara County (Northwest)--Santa Maria City & Orcutt","0606701",37295,1,0.508 
+"06","08302","06701","CA","Santa Barbara County (North)--Lompoc, Guadalupe, Solvang & Buellton Cities","0606701",36098,0.975,0.492 
+"06","08302","06702","CA","Santa Barbara County (North)--Lompoc, Guadalupe, Solvang & Buellton Cities","0606702",918,0.025,0.012 
+"06","08303","06601","CA","Santa Barbara County--South Coast Region","0606601",2,0,0 
+"06","08303","06702","CA","Santa Barbara County--South Coast Region","0606702",78521,1,0.988 
+"06","08501","02701","CA","Santa Clara County (Northwest)--Mountain View, Palo Alto & Los Altos Cities","0602701",82628,1,1 
+"06","08502","02702","CA","Santa Clara County (Northwest)--Sunnyvale & San Jose (North) Cities","0602702",57845,0.989,1 
+"06","08502","02703","CA","Santa Clara County (Northwest)--Sunnyvale & San Jose (North) Cities","0602703",637,0.011,0.013 
+"06","08503","02703","CA","Santa Clara County (Northwest)--San Jose (Northwest) & Santa Clara Cities","0602703",50191,0.969,0.987 
+"06","08503","02708","CA","Santa Clara County (Northwest)--San Jose (Northwest) & Santa Clara Cities","0602708",1597,0.031,0.031 
+"06","08504","02704","CA","Santa Clara County (North Central)--Milpitas & San Jose (Northeast) Cities","0602704",38892,1,1 
+"06","08505","02705","CA","Santa Clara County (North Central)--San Jose City (East Central) & Alum Rock","0602705",28932,1,1 
+"06","08506","02706","CA","Santa Clara County (East)--Gilroy, Morgan Hill & San Jose (South) Cities","0602706",35688,1,0.963 
+"06","08507","02707","CA","Santa Clara County (Southwest)--Cupertino, Saratoga Cities & Los Gatos Town","0602707",50826,0.974,1 
+"06","08507","02711","CA","Santa Clara County (Southwest)--Cupertino, Saratoga Cities & Los Gatos Town","0602711",1372,0.026,0.037 
+"06","08508","02708","CA","Santa Clara County (Central)--San Jose (West Central) & Campbell Cities","0602708",49476,0.936,0.969 
+"06","08508","02710","CA","Santa Clara County (Central)--San Jose (West Central) & Campbell Cities","0602710",3397,0.064,0.06 
+"06","08509","02709","CA","Santa Clara County (Central)--San Jose City (Northwest)","0602709",46240,1,1 
+"06","08510","02710","CA","Santa Clara County (Central)--San Jose City (Central)","0602710",53564,1,0.94 
+"06","08511","02711","CA","Santa Clara County (Central)--San Jose City (South Central/Branham) & Cambrian Park","0602711",36182,0.957,0.963 
+"06","08511","02712","CA","Santa Clara County (Central)--San Jose City (South Central/Branham) & Cambrian Park","0602712",1622,0.043,0.045 
+"06","08512","02706","CA","Santa Clara County (Central)--San Jose City (Southwest/Almaden Valley)","0602706",1378,0.038,0.037 
+"06","08512","02712","CA","Santa Clara County (Central)--San Jose City (Southwest/Almaden Valley)","0602712",34738,0.962,0.955 
+"06","08513","02713","CA","Santa Clara County (Central)--San Jose City (Southeast/Evergreen)","0602713",31328,1,0.945 
+"06","08514","02713","CA","Santa Clara County (Central)--San Jose City (East Central/East Valley)","0602713",1815,0.071,0.055 
+"06","08514","02714","CA","Santa Clara County (Central)--San Jose City (East Central/East Valley)","0602714",23572,0.929,1 
+"06","08701","02801","CA","Santa Cruz County (North)--Watsonville & Scotts Valley Cities","0602801",4252,0.083,0.077 
+"06","08701","02802","CA","Santa Cruz County (North)--Watsonville & Scotts Valley Cities","0602802",46778,0.917,0.953 
+"06","08702","02801","CA","Santa Cruz County (South & Coastal)--Santa Cruz City","0602801",51120,0.956,0.923 
+"06","08702","02802","CA","Santa Cruz County (South & Coastal)--Santa Cruz City","0602802",2326,0.044,0.047 
+"06","08900","00300","CA","Shasta County--Redding City","0600300",77313,1,1 
+"06","09501","01301","CA","Solano County (Southwest)--Vallejo & Benicia Cities","0601301",56497,1,1 
+"06","09502","01302","CA","Solano County (Central)--Fairfield & Suisun City Cities","0601302",48870,1,1 
+"06","09503","01303","CA","Solano County (Northeast)--Vacaville & Dixon Cities","0601303",47331,1,1 
+"06","09701","01101","CA","Sonoma County (North)--Windsor Town, Healdsburg & Sonoma Cities","0601101",85072,1,1 
+"06","09702","01102","CA","Sonoma County (South)--Petaluma, Rohnert Park & Cotati Cities","0601102",47564,1,1 
+"06","09703","01103","CA","Sonoma County (Central)--Santa Rosa City","0601103",71936,1,1 
+"06","09901","02500","CA","Stanislaus County (Southwest)--Ceres, Patterson & Newman Cities","0602500",51,0.001,0.001 
+"06","09901","02601","CA","Stanislaus County (Southwest)--Ceres, Patterson & Newman Cities","0602601",17665,0.498,0.323 
+"06","09901","02602","CA","Stanislaus County (Southwest)--Ceres, Patterson & Newman Cities","0602602",17725,0.5,0.358 
+"06","09902","02500","CA","Stanislaus County (Central)--Modesto City (West)","0602500",34172,0.836,0.454 
+"06","09902","02601","CA","Stanislaus County (Central)--Modesto City (West)","0602601",3284,0.08,0.06 
+"06","09902","02602","CA","Stanislaus County (Central)--Modesto City (West)","0602602",3399,0.083,0.069 
+"06","09903","02500","CA","Stanislaus County (Northeast)--Turlock, Riverbank, Oakdale & Waterford Cities","0602500",94,0.002,0.001 
+"06","09903","02601","CA","Stanislaus County (Northeast)--Turlock, Riverbank, Oakdale & Waterford Cities","0602601",33713,0.55,0.617 
+"06","09903","02602","CA","Stanislaus County (Northeast)--Turlock, Riverbank, Oakdale & Waterford Cities","0602602",27494,0.449,0.555 
+"06","09904","02500","CA","Stanislaus County (Central)--Modesto City (East)","0602500",40948,0.977,0.544 
+"06","09904","02602","CA","Stanislaus County (Central)--Modesto City (East)","0602602",958,0.023,0.019 
+"06","10100","00600","CA","Sutter & Yuba Counties--Yuba City","0600600",3,0,0 
+"06","10100","00800","CA","Sutter & Yuba Counties--Yuba City","0600800",61490,1,1 
+"06","10701","03501","CA","Tulare County (Northwest)--Visalia City","0603501",47483,1,1 
+"06","10702","03502","CA","Tulare County (West Central)--Tulare & Porterville Cities","0603502",44599,0.963,1 
+"06","10702","03503","CA","Tulare County (West Central)--Tulare & Porterville Cities","0603503",1737,0.037,0.035 
+"06","10703","03503","CA","Tulare County (Outside Visalia, Tulare & Porterville Cities)","0603503",47877,1,0.965 
+"06","11101","06400","CA","Ventura County (Southeast)--Simi Valley City","0606400",38012,0.981,0.899 
+"06","11101","06602","CA","Ventura County (Southeast)--Simi Valley City","0606602",753,0.019,0.014 
+"06","11102","06400","CA","Ventura County (Southeast)--Thousand Oaks City","0606400",2,0,0 
+"06","11102","06500","CA","Ventura County (Southeast)--Thousand Oaks City","0606500",47478,0.846,1 
+"06","11102","06602","CA","Ventura County (Southeast)--Thousand Oaks City","0606602",8629,0.154,0.165 
+"06","11103","06200","CA","Ventura County (Southwest)--Oxnard & Port Hueneme Cities","0606200",44554,0.801,0.874 
+"06","11103","06601","CA","Ventura County (Southwest)--Oxnard & Port Hueneme Cities","0606601",11048,0.199,0.237 
+"06","11104","06200","CA","Ventura County (Southwest)--San Buenaventura (Ventura) City","0606200",2754,0.059,0.054 
+"06","11104","06300","CA","Ventura County (Southwest)--San Buenaventura (Ventura) City","0606300",42028,0.894,1 
+"06","11104","06601","CA","Ventura County (Southwest)--San Buenaventura (Ventura) City","0606601",2241,0.048,0.048 
+"06","11105","06200","CA","Ventura County (North)--Santa Paula, Fillmore & Ojai Cities","0606200",540,0.013,0.011 
+"06","11105","06300","CA","Ventura County (North)--Santa Paula, Fillmore & Ojai Cities","0606300",9,0,0 
+"06","11105","06400","CA","Ventura County (North)--Santa Paula, Fillmore & Ojai Cities","0606400",4268,0.106,0.101 
+"06","11105","06601","CA","Ventura County (North)--Santa Paula, Fillmore & Ojai Cities","0606601",32565,0.809,0.697 
+"06","11105","06602","CA","Ventura County (North)--Santa Paula, Fillmore & Ojai Cities","0606602",2854,0.071,0.055 
+"06","11106","06200","CA","Ventura County (South Central)--Camarillo & Moorpark Cities","0606200",3108,0.071,0.061 
+"06","11106","06500","CA","Ventura County (South Central)--Camarillo & Moorpark Cities","0606500",1,0,0 
+"06","11106","06601","CA","Ventura County (South Central)--Camarillo & Moorpark Cities","0606601",839,0.019,0.018 
+"06","11106","06602","CA","Ventura County (South Central)--Camarillo & Moorpark Cities","0606602",40012,0.91,0.766 
+"06","11300","00900","CA","Yolo County--Davis, Woodland & West Sacramento Cities","0600900",75054,1,1 
