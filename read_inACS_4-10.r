@@ -491,9 +491,7 @@ write.csv( NewHousingCZinc, "./Data/_output/CA/HH_forecast_from_income.csv")
 NewHousingCZincL <-  tidyr::gather(NewHousingCZinc, czone, "HH", 3:5)
 names(NewHousingCZincL) <- c("czone","czonename","variable","HH")
 plyr::mapvalues(NewHousingCZincL$variable, from = c("TotalHH14", "TotalHH24", "TotalHH34"), to = c("2014", "2024", "2034"))
-# NewHousingCZincL$variable[NewHousingCZincL$variable == "TotalHH14" ] <- "2014"
-# NewHousingCZincL$variable[NewHousingCZincL$variable == "TotalHH24" ] <- "2024"
-# NewHousingCZincL$variable[NewHousingCZincL$variable == "TotalHH34" ] <- "2034"
+
 NewHousingCZincL$forecast <- "Income Forecast"
 
 ############# output age / industry forecast
