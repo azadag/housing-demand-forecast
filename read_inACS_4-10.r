@@ -1,8 +1,10 @@
 # install.packages("devtools")
 # devtools::install_github("hadley/haven")
 library(data.table)
+library(plyr)
 library(dplyr)
 library(tidyr)
+library(reshape2)
 
 library("sas7bdat")
 
@@ -243,16 +245,17 @@ hh_nums <-  data_acs %>% group_by(SERIAL) %>% filter(AGE > 18) %>%
   summarize(maxP = n(), hhchild = ( sum(NCHILD))) %>% ungroup() %>%
   mutate(HH = as.factor(ifelse(maxP == 1 & hhchild ==0, 1,
                          ifelse( (maxP == 1 & hhchild == 1 ), 2,
-                         ifelse( (maxP == 2 & hhchild == 0 ), 3 ,
-                         ifelse( (maxP == 1 & hhchild ==2 ),4,
-                         ifelse((maxP == 2 & hhchild == 1 ),5,
-                         ifelse((maxP == 3 & hhchild == 0 ),6,
-                         ifelse( (maxP == 1 & hhchild >= 3),7,
-                         ifelse( maxP == 2 & hhchild >= 2 , 8,
-                         ifelse( (maxP == 3 & hhchild >= 1) , 9,
-                         ifelse( maxP >= 4 & hhchild >= 1, 10,
+                         ifelse( (maxP == 2 & hhchild == 0 ), 3,
+                         ifelse( (maxP == 1 & hhchild == 2 ), 4,
+                         ifelse( (maxP == 2 & hhchild == 1 ), 5,
+                         ifelse( (maxP == 3 & hhchild == 0 ), 6,
+                         ifelse( (maxP == 1 & hhchild >= 3 ), 7,
+                         ifelse( (maxP == 2 & hhchild >= 2 ), 8,
+                         ifelse( (maxP == 3 & hhchild >= 1 ), 9,
+                         ifelse( (maxP >= 4 & hhchild >= 1 ) , 10,
                          ifelse( (maxP >= 4 &  hhchild == 0) , 11, 12  
                                                        )))))))))))))
+
 data_acs_1 <- inner_join(data_acs_1, hh_nums, by = "SERIAL") 
 
 
@@ -537,7 +540,7 @@ p <- ggplot( CaForecast, aes(x = variable, y = HH,  group = forecast, color = fo
 p
 ggsave(plot = p, filename= "./Data/_output/CA/HHforecast_compare_area.pdf", height = 12, width = 9 )
 
-
+write.csv( NewHousingCZ1L, "./Data/_output/CA/HH_forecast_from_income&industry.csv")
 
 ######## Industry area  forecasts 
 HHind14 <- data_acs_age1 %>% group_by( czone, IND1) %>% summarize(netHH14 = sum(AGE1))
@@ -595,6 +598,109 @@ names(CzoneIndustry) <- c("czone", "IND", "variable", "HH", "forecast", "czonena
 
 CzoneIndustry$variable <- plyr::mapvalues(CzoneIndustry$variable, from = c("TotalHH14", "TotalHH24", "TotalHH34"), to = c("2014", "2024", "2034"))
 CzoneIndustry$forecast <- as.factor(CzoneIndustry$forecast)
+
+write.csv( CzoneIndustry, "./Data/_output/CA/HH_forecast_from_area&industry.csv")
+
+
+
+### FORECAST HOUSING NEEDS
+
+
+#### calculate forecast of housing Section 5 of Sturtevant & Chapman
+data_acs_hhinc1$HHTYPE <- with(data_acs_hhinc1,
+                               ifelse( (UNITSSTR == 3 | UNITSSTR == 4) & OWNERSHP == 1, "sf_owner",
+                                       ifelse( (UNITSSTR == 3 | UNITSSTR == 4) & OWNERSHP == 2, "sf_renter",
+                                               ifelse( (UNITSSTR >= 5 & OWNERSHP == 1), "mf_owner" ,
+                                                       ifelse( (UNITSSTR >= 5 & OWNERSHP == 2), "mf_renter" , "other")))))
+
+data_acs_11h <- data_acs_hhinc1 %>% filter(  UNITSSTR != 0,  UNITSSTR != 1,  UNITSSTR !=  2 ,  OWNERSHP != 0 ) %>%
+  filter(PERNUM == min(PERNUM)) %>% group_by(czone, HHTYPE, HH, hhincsum) %>% 
+  summarize( num  = sum(HHWT) )  %>% ungroup() %>% group_by( czone, hhincsum, HH) %>%
+  mutate( HHpct1 = ( num / sum(num))) 
+
+## can apply to the two forecast variables but just use HHs here... can use workers and back into HH again but... ##
+# data_acs_hhinc_change, HHsbyInc2024, HHsbyInc2034  (aggregate by age group, ageg)
+# data_acs_agehhch, NetWorkers24, Networker34 (aggregate by ageg)
+
+data_forecastinc   <- data_acs_hhinc_change %>% select(IND1, czone.x, ageg, HH, hhincsum, HHsbyInc2024, HHsbyInc2034 ) %>% 
+  group_by(czone.x, HH, hhincsum) %>% dplyr::summarize( HH24 = sum(HHsbyInc2024), HH34 = sum(HHsbyInc2034)) 
+
+data_forecastinc[is.na(data_forecastinc)] <- 0
+# data_acs_age1 %>% group_by(czone) %>% summarize(netHH14 = sum(AGE1))
+# head(data_forecastinc)
+
+data_acs_11h$join <- with(data_acs_11h, paste0(czone, HH, hhincsum))
+data_forecastinc$join <- with(data_forecastinc, paste0(czone.x, HH, hhincsum))
+data_forecastinc$czone.x <- NULL
+data_forecastinc$HH <- NULL
+data_forecastinc$hhincsum <- NULL
+
+forecast_housing <- data_acs_11h %>% inner_join(data_forecastinc, by = "join") %>% 
+  mutate(HH24new = HH24 * HHpct1, HH34new = HH34 * HHpct1 ) %>%
+  group_by(czone, HHTYPE) %>% summarize(HH24new = sum(HH24new), HH34new = sum(HH34new))
+
+forecast_housing$czone <- as.character( forecast_housing$czone )
+forecast_housing <- inner_join( forecast_housing, code_czone, by="czone")
+forecast_housing$name <- strtrim(forecast_housing$czonename, 15 )
+
+write.csv( forecast_housing, "./Data/_output/CA/HOUSING_forecast.csv")
+
+
+
+
+#####
+
+ggplot(forecast_housing, aes(x=HHTYPE, y=HH24new, fill= HHTYPE)) + geom_bar(stat = "identity")  +
+  facet_grid( . ~ name ) + theme_bw()
+ggsave("./Data/_output/CA/CITY_graph_housing_area24.pdf", width = 13, height = 7, dpi = 550)
+
+ggplot(forecast_housing, aes(x=HHTYPE, y=HH34new, fill= HHTYPE)) + geom_bar(stat = "identity")  +
+  facet_grid( . ~ name ) + theme_bw()
+
+ggsave("./Data/_output/CA/CITY_graph_housing_area34.pdf", width = 13, height = 7, dpi = 550)
+
+ ggplot(forecast_housing, aes(x=HHTYPE, y=HH24new, fill= HHTYPE)) + geom_bar(stat = "identity")  +
+  facet_grid( . ~ name ) + theme_bw() +  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+graph_housing
+
+ggplot(forecast_housing, aes(x=HHTYPE, y=HH24new, fill= HHTYPE)) + geom_bar(stat = "identity")  +
+  facet_grid( . ~ name ) + theme_bw() +  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+forecast_housingL <- forecast_housing %>% reshape2::melt( id = c("czone","HHTYPE", "czonename", "name" ), value = "HHs", 3:4)
+# names(IndIncForecastL) <- c("czone","Ind","variable","HH")
+# IndIncForecastL$forecast <- "Ind Industry Forec
+
+
+graph_housing <- ggplot(forecast_housingL, aes(x=HHTYPE, y=value, fill= variable)) + geom_bar(position="dodge", stat = "identity") 
+graph_housing
+
+ggsave("./Data/_output/CA/CA_housing_forecast_total_by_year.pdf")
+
+graph_housing <- ggplot(forecast_housingL, aes(x=variable, y=value, fill= HHTYPE)) + geom_bar(position="dodge", stat = "identity") 
+graph_housing
+ggsave("./Data/_output/CA/CA_housing_forecast_total_by_type_year.pdf")
+
+
+
+ggplot(forecast_housingL, aes(x=HHTYPE, y=value, fill= HHTYPE)) + geom_bar(position="dodge", stat = "identity",
+                 aes(fill=factor(variable))) + facet_grid( . ~ name) +
+  theme_bw() + theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+
+
+graph_housing <- ggplot(forecast_housingL, aes(x=HHTYPE, y=value, fill= variable)) + geom_bar(position="dodge", stat = "identity") 
+graph_housing + theme_bw() +  theme(axis.text.x = element_text(angle = 45, hjust = 1)) + facet_grid( . ~ name) 
+
+ggsave("./Data/_output/CA/CA_housing_forecast_total_by_type_year.pdf")
+
+graph_housing <- ggplot(forecast_housingL, aes(x=HHTYPE, y=value, fill= variable)) + geom_bar(position="stack", stat = "identity") 
+graph_housing + theme_bw() +  theme(axis.text.x = element_text(angle = 45, hjust = 1)) + facet_grid( . ~ name) 
+
+
+  facet_grid( czonename + HHTYPE ~ variable ) + theme_bw()
+# facets = ppt~time
+
+###############################
 
 
 library(RColorBrewer)
