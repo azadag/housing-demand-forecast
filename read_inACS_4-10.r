@@ -13,7 +13,7 @@ head(data_in)
 tbl_df(data_in)
 ##### read in employment forecast data (Moody's), and codes' ####
 file <- paste0(getwd())
-Ind_Emp2 <- read.csv(paste0(file,"/Data/_input/1_emp_data.csv")) %>% gather(Code)
+Ind_Emp2 <- read.csv("./Data/_input/1_emp_data.csv") %>% gather(Code)
 names(Ind_Emp2) <- c("Date", "Code", "Empvalue")
 
 code_ind    <- read.csv(paste0(file,"/Data/_input/2_code_indemp.csv"), nrows=16)
