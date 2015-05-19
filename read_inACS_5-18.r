@@ -274,9 +274,7 @@ labels <- c("Less30", "b30_44", "b45_64", "More65")
  
 data_acs_age <- data_acs_emp1J %>% 
   dplyr::group_by(IND1, czone) %>%
-  # dplyr::tally  %>% 
   dplyr::mutate(ageg = cut(AGE, levels, labels = labels))
-
 
 ####
 data_acs_age2 <- data_acs_age %>% dplyr::group_by(IND1, czone, ageg, HH) %>%
@@ -287,7 +285,8 @@ data_acs_age2 <- data_acs_age %>% dplyr::group_by(IND1, czone, ageg, HH) %>%
   dplyr::mutate( PctOfINDZONE = AGE1 / sum(AGE1, na.rm = TRUE)) %>% ungroup() %>%
   dplyr::group_by(IND1, czone, HH) %>%
   dplyr::mutate(AGE2 = AGE1 / sum(AGE1, na.rm = TRUE)) 
-  
+
+# AGE1 : number of households of X age group members  
 # AGE1pct :: the age group's percent of industry employment for the czone 
 # AGE2    :: has HH's pct of industry  for czone...
 # ageg    :: Age Groups
@@ -295,12 +294,16 @@ data_acs_age2 <- data_acs_age %>% dplyr::group_by(IND1, czone, ageg, HH) %>%
 
 #### create distribution of hh types  #### net new forecasts from industry / ## 
 ##age distributions
+
 data_acs_age1hh <- data_acs_age %>% dplyr::group_by(IND1, czone, ageg, HH) %>%
-          dplyr::summarise( AGE1 = sum( HHWT, na.rm = TRUE), avghhworkers = mean(workers, na.rm = TRUE) )
+          dplyr::summarise( AGE1 = sum( HHWT, na.rm = TRUE), 
+                            avghhworkers = mean(workers, na.rm = TRUE) )
           
 data_acs_age3 <- as.data.frame(cbind(data_acs_age2, data_acs_age1hh$avghhworkers))
 names(data_acs_age3)[9] <- "avghhworkers"
 
+
+################################################
 ##### join industry forecasts to household #####
 ind_data_czone$join <- paste0(ind_data_czone$czone, ind_data_czone$Ind_Code)
 data_acs_age3$join  <- paste0(data_acs_age3$czone, data_acs_age3$IND1)
@@ -312,7 +315,6 @@ data_acs_age4$Ind_Code <- NULL
 data_acs_agehhch <- data_acs_age4 %>% group_by(IND1, czone.x, ageg, HH) %>% 
   mutate( NetWorkers24 = sum( (AGE2 * AGE1pct * EmpCh14_24)/ avghhworkers , na.rm = TRUE), 
           NetWorkers34 = sum( (AGE2 * AGE1pct * EmpCh24_34)/ avghhworkers) , na.rm = TRUE) 
-##age2 - is the households
 
 data_acs_agehhchS <- data_acs_agehhch %>% group_by(IND1, czone.x) %>%
          summarize(netHH24 = sum(NetWorkers24, na.rm = TRUE), 
