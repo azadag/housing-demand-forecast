@@ -352,8 +352,11 @@ names(data_acs_ageI3)[10] <- "avghhworkers"
 ##### income population groups #####
 # this summarises number of households in each income group by industry 
 # and pct of households in each industry 
-data_acs_hhinc_groups <- data_acs_hhinc1 %>%  dplyr::group_by(IND1, czone, hhincsum ) %>%
-  dplyr::summarise( HHs = sum( PERWT, na.rm = TRUE),  avghhworkers = mean(workers)) %>% mutate(HHpct = HHs / sum( HHs, na.rm = TRUE))
+data_acs_hhinc_groups <- data_acs_hhinc1 %>%  
+  dplyr::group_by(IND1, czone, hhincsum ) %>%
+  dplyr::summarise( HHs = sum( PERWT, na.rm = TRUE),  
+                    avghhworkers = mean(workers)) %>% 
+  dplyr::mutate(HHpct = HHs / sum( HHs, na.rm = TRUE))
 
 ##### forecasts of hh incomes, paralleling forecasts of hh ind / age types
 ## used data_acs_ageI3 instead of data_acs_hhinc_groups
@@ -371,138 +374,6 @@ data_acs_hhinc_change <- data_acs_hhinc_groups_a %>% group_by(IND1, czone.x, hhi
 data_acs_agehhINCchS <- data_acs_hhinc_change %>% group_by(IND1, czone.x) %>%
   summarize( netHH24 = sum(HHsbyInc2024, na.rm = TRUE), netHH34 = sum(HHsbyInc2034, na.rm = TRUE)) 
 
-########################  DATA SUMMARY                  ##########
-######### OUTPUT total HH income present and forecasts ###########
-HH14 <- data_acs_age1 %>% group_by(czone) %>% summarize(netHH14 = sum(AGE1, na.rm = TRUE))
-HH14 <- rename(HH14,  czone.x = czone)
-
-NewHousingCZinc <- data_acs_hhinc_change %>% group_by( czone.x) %>%
-  summarize( netHH24 = sum(HHsbyInc2024,na.rm=TRUE), 
-             netHH34 = sum(HHsbyInc2034, na.rm=TRUE)) 
-
-NewHousingCZinc <- inner_join(NewHousingCZinc, HH14, by = c("czone.x" = "czone.x"))
-NewHousingCZinc$TotalHH14 <- NewHousingCZinc$netHH14 
-NewHousingCZinc$TotalHH24 <- NewHousingCZinc$netHH14 + NewHousingCZinc$netHH24 
-NewHousingCZinc$TotalHH34 <- NewHousingCZinc$TotalHH24 + NewHousingCZinc$netHH24 
-NewHousingCZinc$netHH24 <- NULL
-NewHousingCZinc$netHH34 <- NULL
-NewHousingCZinc$netHH14 <- NULL
-NewHousingCZinc$czone.x <- as.character( NewHousingCZinc$czone.x ) 
-NewHousingCZinc <-  inner_join( code_czone, NewHousingCZinc, by=c("czone"="czone.x"))
-write.csv( NewHousingCZinc, "./Data/_output/Industry_Projections/HH_forecast_from_income.csv")
-
-# NewHousingCZincL <-  inner_join( code_czone, NewHousingCZinc, by=c("czone"="czone.x"))
-NewHousingCZincL <-  tidyr::gather(NewHousingCZinc, czone, "HH", 3:5)
-names(NewHousingCZincL) <- c("czone","czonename","variable","HH")
-plyr::mapvalues(NewHousingCZincL$variable, from = c("TotalHH14", "TotalHH24", "TotalHH34"), 
-                to = c("2014", "2024", "2034"))
-
-NewHousingCZincL$forecast <- "Income Forecast"
-
-############# output age / industry forecast
-NewHousingCZ1 <- data_acs_agehhch %>% group_by( czone.x) %>%
-  summarize(netHH24 = round(sum(NetWorkers24,na.rm=TRUE),0), 
-            netHH34 = round(sum(NetWorkers34, na.rm=TRUE),0)) 
-
-NewHousingCZ1 <- inner_join(NewHousingCZ1, HH14, by = c("czone.x" = "czone.x"))
-NewHousingCZ1$TotalHH14 <- NewHousingCZ1$netHH14 
-NewHousingCZ1$TotalHH24 <- NewHousingCZ1$netHH14 + NewHousingCZ1$netHH24 
-NewHousingCZ1$TotalHH34 <- NewHousingCZ1$TotalHH24 + NewHousingCZ1$netHH24 
-NewHousingCZ1$netHH24 <- NULL
-NewHousingCZ1$netHH34 <- NULL
-NewHousingCZ1$netHH14 <- NULL
-NewHousingCZ1$czone.x <- as.character( NewHousingCZ1$czone.x ) 
-NewHousingCZ1 <-  inner_join( code_czone, NewHousingCZ1, by=c("czone"="czone.x"))
-
-write.csv( NewHousingCZ1, "./Data/_output/CA/HH_forecast_from_age&industry.csv")
-
-
-
-########### Re Do  for industry income forecast ####
-
-NewHousingCZ1L <- tidyr::gather(NewHousingCZ1, czone, "HH", 3:5)
-names(NewHousingCZ1L) <- c("czone","czonename","variable","HH")
-# plyr::mapvalues(NewHousingCZ1L$variable, from = c("TotalHH14", "TotalHH24", "TotalHH34"), to = c("2014", "2024", "2034"))
-
-# NewHousingCZ1L$variable[NewHousingCZ1L$variable == "TotalHH14" ] <- "2014"
-# NewHousingCZ1L$variable[NewHousingCZ1L$variable == "TotalHH24" ] <- "2024"
-# NewHousingCZ1L$variable[NewHousingCZ1L$variable == "TotalHH34" ] <- "2034"
-NewHousingCZ1L$forecast <- "Age Industry Forecast"
-
-CaForecast <- rbind(NewHousingCZincL, NewHousingCZ1L)
-CaForecast$forecast <- as.factor(CaForecast$forecast)
-CaForecast$variable <- plyr::mapvalues(CaForecast$variable, from = c("TotalHH14", "TotalHH24", "TotalHH34"), to = c("2014", "2024", "2034"))
-
-p <- ggplot( CaForecast, aes(x = variable, y = log(HH),  group = czonename, color = czonename), log = y) + geom_line() + 
-  geom_point() +  facet_wrap(~ forecast, ncol = 2 , scales = "free") 
-p
-ggsave(plot = p, filename= "./Data/_output/CA/HHforecast_compare.pdf", height = 8, width = 8 )
-
-p <- ggplot( CaForecast, aes(x = variable, y = HH,  group = forecast, color = forecast)) + geom_line() + 
-  geom_point() +  facet_wrap(~ czone, ncol = 2 , scales = "free") 
-p
-ggsave(plot = p, filename= "./Data/_output/CA/HHforecast_compare_area.pdf", height = 12, width = 9 )
-
-write.csv( NewHousingCZ1L, "./Data/_output/CA/HH_forecast_from_income&industry.csv")
-
-######## Industry area  forecasts 
-HHind14 <- data_acs_age1 %>% group_by( czone, IND1) %>% summarize(netHH14 = sum(AGE1, na.rm = TRUE))
-
-## need to paste for the industry join...
-data_acs_agehhINCchS$join <- paste0(data_acs_agehhINCchS$IND1, data_acs_agehhINCchS$czone.x)
-HHind14$join <- paste0(HHind14$IND1, HHind14$czone)
-IndIncForecast <- inner_join( data_acs_agehhINCchS, HHind14, by = "join")
-
-IndIncForecast$TotalHH14 <- IndIncForecast$netHH14 
-IndIncForecast$TotalHH24 <- IndIncForecast$netHH14 + IndIncForecast$netHH24 
-IndIncForecast$TotalHH34 <- IndIncForecast$TotalHH24 + IndIncForecast$netHH24 
-IndIncForecast$netHH24 <- NULL
-IndIncForecast$netHH34 <- NULL
-IndIncForecast$netHH14 <- NULL
-IndIncForecast$czone <- NULL
-IndIncForecast$IND1.y <- NULL
-IndIncForecast$join <- NULL
-names(IndIncForecast) <- c("IND", "czone", "TotalHH14", "TotalHH24", "TotalHH34")
-
-# IndIncForecastL <- tidyr::gather(IndIncForecast, czone, "HH", 3:5)
-IndIncForecastL <- IndIncForecast %>% reshape2::melt( id = c("czone","IND"), value = "HH", 3:5)
-names(IndIncForecastL) <- c("czone","Ind","variable","HH")
-IndIncForecastL$forecast <- "Ind Industry Forecast"
-
-##  ## age forecast
-data_acs_agehhchS$join <- paste0(data_acs_agehhchS$IND1, data_acs_agehhchS$czone.x)
-IndAgeForecast <- inner_join(data_acs_agehhchS, HHind14, by = c("join" = "join"))
-
-IndAgeForecast$TotalHH14 <- IndAgeForecast$netHH14 
-IndAgeForecast$TotalHH24 <- IndAgeForecast$netHH14 + IndAgeForecast$netHH24 
-IndAgeForecast$TotalHH34 <- IndAgeForecast$TotalHH24 + IndAgeForecast$netHH24 
-IndAgeForecast$netHH24 <- NULL
-IndAgeForecast$netHH34 <- NULL
-IndAgeForecast$netHH14 <- NULL
-IndAgeForecast$czone <- NULL
-IndAgeForecast$IND1.y <- NULL
-IndAgeForecast$join <- NULL
-names(IndAgeForecast) <- c("IND", "czone", "TotalHH14", "TotalHH24", "TotalHH34")
-
-
-IndAgeForecastL <- IndAgeForecast %>% reshape2::melt( id = c("czone","IND"), value = "HH", 3:5)
-# IndAgeForecastL <- tidyr::gather(IndIncForecast, key = c("czone","IND"), value = "HH", 3:5)
-names(IndAgeForecastL) <- c("czone","Ind","variable","HH")
-IndAgeForecastL$forecast <- "Ind Age Forecast"
-
-CzoneIndustry <- rbind(IndIncForecastL, IndAgeForecastL)
-# names(IndAgeForecast) <- c("czone", "IND", "variable", "HH", "forecast")
-
-code_czone$czone <- as.character(code_czone$czone)
-CzoneIndustry$czone <- as.character(CzoneIndustry$czone)
-
-CzoneIndustry <- inner_join( CzoneIndustry, code_czone, by="czone")
-names(CzoneIndustry) <- c("czone", "IND", "variable", "HH", "forecast", "czonename")
-
-CzoneIndustry$variable <- plyr::mapvalues(CzoneIndustry$variable, from = c("TotalHH14", "TotalHH24", "TotalHH34"), to = c("2014", "2024", "2034"))
-CzoneIndustry$forecast <- as.factor(CzoneIndustry$forecast)
-
-write.csv( CzoneIndustry, "./Data/_output/CA/HH_forecast_from_area&industry.csv")
 
 ### FORECAST HOUSING NEEDS
 #### calculate forecast of housing Section 5 of Sturtevant & Chapman
