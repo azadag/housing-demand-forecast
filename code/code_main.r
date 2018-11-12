@@ -175,6 +175,7 @@ split2 <- NULL
 list_of_data1 <- NULL 
 
 #### read in acs data... #####
+## ACS data from IPUMS, which has csv outputs now ##
 data_acs <- SAScii::read.SAScii ( 
   paste0(file,"/Data/ACS_input/usa_00032.dat") , 
   paste0(file,"/Data/ACS_input/usa_00032.sas") , 
